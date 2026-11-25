@@ -1,0 +1,17 @@
+id: gost-r-53325-2012
+kind: ГОСТ Р
+number: 53325-2012
+title: Техника пожарная. Технические средства пожарной автоматики. Общие технические требования и методы испытаний
+jurisdiction: ru
+status: действует
+scope:
+- ps
+edition: с Изменениями № 1-3
+introduced: '2014-01-01'
+notes: 'Требования к приборам и извещателям: климатика, помехоустойчивость, испытания.'
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200102066
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

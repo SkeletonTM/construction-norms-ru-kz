@@ -1,0 +1,20 @@
+id: sp-32.13330.2018
+kind: СП
+number: 32.13330.2018
+title: Канализация. Наружные сети и сооружения
+jurisdiction: ru
+status: действует
+scope:
+- naruzh
+- vk
+edition: с Изменениями № 1-5
+introduced: '2019-06-26'
+supersedes:
+- sp-32.13330.2012
+notes: 'Наружная канализация: расчётные расходы, очистные сооружения, дождевая канализация.'
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/554820821
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

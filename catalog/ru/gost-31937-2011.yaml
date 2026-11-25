@@ -1,0 +1,15 @@
+id: gost-31937-2011
+kind: ГОСТ
+number: 31937-2011
+title: Здания и сооружения. Правила обследования и мониторинга технического состояния
+jurisdiction: ru
+status: заменён
+scope:
+- inzashchita
+introduced: '2014-01-01'
+superseded_by: gost-31937-2024
+notes: Заменён редакцией 2024 года.
+updated: '2026-11-25'
+sources:
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

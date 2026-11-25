@@ -1,0 +1,18 @@
+id: sp-31.13330.2012
+kind: СП
+number: 31.13330.2012
+title: Водоснабжение. Наружные сети и сооружения
+jurisdiction: ru
+status: заменён
+scope:
+- vk
+edition: с Изменениями № 1-5
+introduced: '2013-01-01'
+superseded_by: sp-31.13330.2021
+notes: 'Наружные сети водоснабжения: источники, насосные станции, водоводы, резервуары.'
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200093820
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

@@ -1,0 +1,17 @@
+id: sp-116.13330.2012
+kind: СП
+number: 116.13330.2012
+title: Инженерная защита территорий, зданий и сооружений от опасных геологических процессов
+jurisdiction: ru
+status: действует
+scope:
+- inzashchita
+edition: с Изменениями № 1, 2
+introduced: '2013-01-01'
+notes: Защита от оползней, селей, обвалов. Основные положения проектирования.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200095540
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

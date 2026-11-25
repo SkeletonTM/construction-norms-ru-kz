@@ -1,0 +1,18 @@
+id: sp-29.13330.2011
+kind: СП
+number: 29.13330.2011
+title: Полы
+jurisdiction: ru
+status: действует
+scope:
+- konstrukcii
+- ar
+edition: с Изменениями № 1-4
+introduced: '2011-05-20'
+notes: Конструкции полов, уклоны в мокрых помещениях, трапы и гидроизоляция.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200084091
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

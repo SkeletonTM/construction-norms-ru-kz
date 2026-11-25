@@ -1,0 +1,15 @@
+id: sp-15.13330.2020
+kind: СП
+number: 15.13330.2020
+title: Каменные и армокаменные конструкции
+jurisdiction: ru
+status: действует
+scope:
+- konstrukcii
+edition: с Изменением № 1
+introduced: '2021-07-01'
+notes: Расчёт кладки из кирпича и блоков, армирование, допускаемые деформации.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/573741258
+  kind: текст

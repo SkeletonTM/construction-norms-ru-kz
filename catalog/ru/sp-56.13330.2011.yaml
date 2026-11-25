@@ -1,0 +1,17 @@
+id: sp-56.13330.2011
+kind: СП
+number: 56.13330.2011
+title: Производственные здания
+jurisdiction: ru
+status: действует
+scope:
+- ar
+edition: с Изменениями № 1, 2
+introduced: '2011-05-20'
+notes: 'Производственные здания: объёмно-планировочные решения, инженерное обеспечение.'
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200085105
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

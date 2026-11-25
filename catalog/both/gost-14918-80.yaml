@@ -1,0 +1,21 @@
+id: gost-14918-80
+kind: ГОСТ
+number: 14918-80
+title: Сталь тонколистовая оцинкованная с непрерывных линий. Технические условия
+jurisdiction: both
+status: заменён
+scope:
+- ov
+edition: с Изменениями № 1, 2
+introduced: '1981-07-01'
+superseded_by: gost-14918-2020
+applies_in_kz: true
+notes: Заменён на ГОСТ 14918-2020 в РФ и в РК. Встречается в спецификациях воздуховодов старых проектов.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200005124
+  kind: текст
+- url: https://new-shop.ksm.kz/catalog/document/32645/
+  kind: статус
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

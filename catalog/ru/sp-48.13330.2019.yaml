@@ -1,0 +1,17 @@
+id: sp-48.13330.2019
+kind: СП
+number: 48.13330.2019
+title: Организация строительства
+jurisdiction: ru
+status: действует
+scope:
+- organizaciya
+edition: с Изменениями № 1, 2
+introduced: '2020-06-25'
+notes: Организация строительства, передача документации, авторский надзор, приёмка объекта.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/564542209
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

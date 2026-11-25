@@ -1,0 +1,22 @@
+id: sp-50.13330.2024
+kind: СП
+number: 50.13330.2024
+title: Тепловая защита зданий
+jurisdiction: ru
+status: действует
+scope:
+- ov
+- teplo
+introduced: '2024-06-16'
+supersedes:
+- sp-50.13330.2012
+enacted_by: приказ Минстроя России от 15.05.2024
+notes: Теплотехника ограждающих конструкций, приведённое сопротивление теплопередаче, энергетический паспорт.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1306326592
+  kind: текст
+- url: https://docs.cntd.ru/document/1306683052
+  kind: приказ
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

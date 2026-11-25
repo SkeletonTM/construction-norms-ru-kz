@@ -1,0 +1,18 @@
+id: sp-89.13330.2016
+kind: СП
+number: 89.13330.2016
+title: Котельные установки
+jurisdiction: ru
+status: действует
+scope:
+- teplo
+- special
+edition: с Изменением № 1
+introduced: '2017-06-17'
+notes: 'Котельные: состав оборудования, помещения, взрывопожарные требования, дымовые трубы.'
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/456054199
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

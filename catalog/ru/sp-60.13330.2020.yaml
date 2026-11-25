@@ -1,0 +1,22 @@
+id: sp-60.13330.2020
+kind: СП
+number: 60.13330.2020
+title: Отопление, вентиляция и кондиционирование воздуха
+jurisdiction: ru
+status: действует
+scope:
+- ov
+edition: с Поправкой, с Изменениями № 1-6
+introduced: '2021-07-01'
+supersedes:
+- sp-60.13330.2016
+enacted_by: приказ Минстроя России от 30.12.2020 № 921/пр
+notes: Основной документ по ОВ. Приказом № 921/пр редакция 2016 года признана не подлежащей применению, кроме отдельных пунктов — сверять при спорных ссылках.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/573697256
+  kind: текст
+- url: https://docs.cntd.ru/document/573696693
+  kind: приказ
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

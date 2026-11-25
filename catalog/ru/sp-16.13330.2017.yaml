@@ -1,0 +1,17 @@
+id: sp-16.13330.2017
+kind: СП
+number: 16.13330.2017
+title: Стальные конструкции
+jurisdiction: ru
+status: действует
+scope:
+- konstrukcii
+edition: с Поправками, с Изменениями № 1-6
+introduced: '2017-08-28'
+notes: 'Расчёт и конструирование стальных конструкций: балки, колонны, фермы, опорные рамы.'
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/456069588
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

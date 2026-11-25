@@ -1,0 +1,17 @@
+id: sp-118.13330.2012
+kind: СП
+number: 118.13330.2012
+title: Общественные здания и сооружения
+jurisdiction: ru
+status: действует
+scope:
+- ar
+edition: с Изменениями № 1-4
+introduced: '2014-09-01'
+notes: Состав и площади помещений общественных зданий, включая технические и слаботочные.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200092705
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

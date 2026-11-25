@@ -1,0 +1,18 @@
+id: gost-26342-84
+kind: ГОСТ
+number: 26342-84
+title: Средства охранной, пожарной и охранно-пожарной сигнализации. Типы, основные параметры и размеры
+jurisdiction: both
+status: действует
+scope:
+- ps
+- os
+introduced: '1986-01-01'
+applies_in_kz: true
+notes: Типы и параметры извещателей и приборов. Действует в РФ и подтверждён в РК.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200031059
+  kind: текст
+- url: https://prg.kz/document/?doc_id=30040204
+  kind: статус

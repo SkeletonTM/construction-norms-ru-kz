@@ -1,0 +1,16 @@
+id: sp-rk-2.02-102-2012
+kind: СП РК
+number: 2.02-102-2012
+title: Пожарная автоматика зданий и сооружений
+jurisdiction: kz
+status: заменён
+scope:
+- ps
+- pozh
+introduced: '2015-07-01'
+superseded_by: sp-rk-2.02-102-2022
+notes: Утратил силу с 01.03.2023, заменён редакцией 2022 года.
+updated: '2026-11-25'
+sources:
+- url: https://prg.kz/document/?doc_id=32668490
+  kind: статус

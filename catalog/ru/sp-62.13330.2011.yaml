@@ -1,0 +1,18 @@
+id: sp-62.13330.2011
+kind: СП
+number: 62.13330.2011
+title: Газораспределительные системы
+jurisdiction: ru
+status: действует
+scope:
+- gaz
+- naruzh
+edition: с Изменениями № 1-4
+introduced: '2013-01-01'
+notes: 'Наружные газопроводы: давления, прокладка, вводы в здания, отключающие устройства. Основа раздела ГСН.'
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200084535
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

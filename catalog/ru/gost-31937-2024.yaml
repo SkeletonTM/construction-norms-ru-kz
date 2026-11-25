@@ -1,0 +1,17 @@
+id: gost-31937-2024
+kind: ГОСТ
+number: 31937-2024
+title: Здания и сооружения. Правила обследования и мониторинга технического состояния
+jurisdiction: ru
+status: действует
+scope:
+- inzashchita
+edition: с Поправкой
+introduced: '2024-05-01'
+supersedes:
+- gost-31937-2011
+notes: Обследование и мониторинг зданий. Нужен при реконструкции и оценке существующих конструкций.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1305691614
+  kind: текст

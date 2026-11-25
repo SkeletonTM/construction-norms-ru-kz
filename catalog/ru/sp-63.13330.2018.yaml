@@ -1,0 +1,17 @@
+id: sp-63.13330.2018
+kind: СП
+number: 63.13330.2018
+title: Бетонные и железобетонные конструкции. Основные положения
+jurisdiction: ru
+status: действует
+scope:
+- konstrukcii
+edition: с Изменениями № 1, 2
+introduced: '2019-06-20'
+notes: Расчёт бетонных и железобетонных конструкций, армирование, защитный слой.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/554403082
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

@@ -1,0 +1,17 @@
+id: sp-154.13130.2013
+kind: СП
+number: 154.13130.2013
+title: Встроенные подземные автостоянки. Требования пожарной безопасности
+jurisdiction: ru
+status: действует
+scope:
+- pozh
+- special
+introduced: '2013-02-25'
+notes: 'Подземные встроенные стоянки: противодымная защита, огнестойкость, эвакуация.'
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200098834
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

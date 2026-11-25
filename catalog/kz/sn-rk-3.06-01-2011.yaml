@@ -1,0 +1,14 @@
+id: sn-rk-3.06-01-2011
+kind: СН РК
+number: 3.06-01-2011
+title: Доступность зданий и сооружений для маломобильных групп населения
+jurisdiction: kz
+status: действует
+scope:
+- dostupnost
+- ar
+notes: 'Казахстанский аналог СП 59.13330: пандусы, пути движения, санитарные узлы.'
+updated: '2026-11-25'
+sources:
+- url: https://prg.kz/document/?doc_id=37761798
+  kind: текст

@@ -1,0 +1,17 @@
+id: sp-54.13330.2016
+kind: СП
+number: 54.13330.2016
+title: Здания жилые многоквартирные
+jurisdiction: ru
+status: действует
+scope:
+- ar
+edition: с Изменениями № 1-3
+introduced: '2017-06-04'
+notes: 'Объёмно-планировочные решения жилых зданий: состав помещений, инженерное обеспечение.'
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/456054198
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

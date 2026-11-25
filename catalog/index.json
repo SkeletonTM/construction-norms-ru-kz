@@ -1,0 +1,1967 @@
+[
+  {
+    "id": "gost-30494-2011",
+    "kind": "ГОСТ",
+    "number": "30494-2011",
+    "title": "Здания жилые и общественные. Параметры микроклимата в помещениях",
+    "jurisdiction": "both",
+    "status": "действует",
+    "scope": [
+      "ov"
+    ],
+    "edition": "с Поправкой, с Изменением № 1",
+    "introduced": "2013-01-01",
+    "superseded_by": null,
+    "path": "catalog/both/gost-30494-2011.yaml"
+  },
+  {
+    "id": "gost-21.602-2016",
+    "kind": "ГОСТ",
+    "number": "21.602-2016",
+    "title": "Правила выполнения рабочей документации систем отопления, вентиляции и кондиционирования",
+    "jurisdiction": "both",
+    "status": "действует",
+    "scope": [
+      "ov",
+      "obshchie"
+    ],
+    "edition": null,
+    "introduced": "2017-07-01",
+    "superseded_by": null,
+    "path": "catalog/both/gost-21.602-2016.yaml"
+  },
+  {
+    "id": "gost-14918-2020",
+    "kind": "ГОСТ",
+    "number": "14918-2020",
+    "title": "Прокат листовой горячеоцинкованный. Технические условия",
+    "jurisdiction": "both",
+    "status": "действует",
+    "scope": [
+      "ov"
+    ],
+    "edition": "с Поправками, с Изменением № 1",
+    "introduced": "2020-12-01",
+    "superseded_by": null,
+    "path": "catalog/both/gost-14918-2020.yaml"
+  },
+  {
+    "id": "gost-26342-84",
+    "kind": "ГОСТ",
+    "number": "26342-84",
+    "title": "Средства охранной, пожарной и охранно-пожарной сигнализации. Типы, основные параметры и размеры",
+    "jurisdiction": "both",
+    "status": "действует",
+    "scope": [
+      "ps",
+      "os"
+    ],
+    "edition": null,
+    "introduced": "1986-01-01",
+    "superseded_by": null,
+    "path": "catalog/both/gost-26342-84.yaml"
+  },
+  {
+    "id": "gost-3262-75",
+    "kind": "ГОСТ",
+    "number": "3262-75",
+    "title": "Трубы стальные водогазопроводные. Технические условия",
+    "jurisdiction": "both",
+    "status": "действует",
+    "scope": [
+      "vk",
+      "ov"
+    ],
+    "edition": "с Изменениями № 1-6",
+    "introduced": "1977-01-01",
+    "superseded_by": null,
+    "path": "catalog/both/gost-3262-75.yaml"
+  },
+  {
+    "id": "gost-10704-91",
+    "kind": "ГОСТ",
+    "number": "10704-91",
+    "title": "Трубы стальные электросварные прямошовные. Сортамент",
+    "jurisdiction": "both",
+    "status": "действует",
+    "scope": [
+      "vk",
+      "ov"
+    ],
+    "edition": "с Изменениями № 1-3",
+    "introduced": "1993-01-01",
+    "superseded_by": null,
+    "path": "catalog/both/gost-10704-91.yaml"
+  },
+  {
+    "id": "gost-14918-80",
+    "kind": "ГОСТ",
+    "number": "14918-80",
+    "title": "Сталь тонколистовая оцинкованная с непрерывных линий. Технические условия",
+    "jurisdiction": "both",
+    "status": "заменён",
+    "scope": [
+      "ov"
+    ],
+    "edition": "с Изменениями № 1, 2",
+    "introduced": "1981-07-01",
+    "superseded_by": "gost-14918-2020",
+    "path": "catalog/both/gost-14918-80.yaml"
+  },
+  {
+    "id": "sn-rk-4.01-02-2013",
+    "kind": "СН РК",
+    "number": "4.01-02-2013",
+    "title": "Внутренние санитарно-технические системы",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "vk",
+      "ov"
+    ],
+    "edition": null,
+    "introduced": "2015-07-01",
+    "superseded_by": null,
+    "path": "catalog/kz/sn-rk-4.01-02-2013.yaml"
+  },
+  {
+    "id": "sp-rk-4.01-102-2013",
+    "kind": "СП РК",
+    "number": "4.01-102-2013",
+    "title": "Внутренние санитарно-технические системы",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "vk",
+      "ov"
+    ],
+    "edition": null,
+    "introduced": "2015-07-01",
+    "superseded_by": null,
+    "path": "catalog/kz/sp-rk-4.01-102-2013.yaml"
+  },
+  {
+    "id": "sn-rk-4.01-01-2011",
+    "kind": "СН РК",
+    "number": "4.01-01-2011",
+    "title": "Внутренний водопровод и канализация зданий и сооружений",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "vk"
+    ],
+    "edition": "с изменениями по состоянию на 18.02.2025",
+    "introduced": "2015-07-01",
+    "superseded_by": null,
+    "path": "catalog/kz/sn-rk-4.01-01-2011.yaml"
+  },
+  {
+    "id": "sp-rk-4.01-101-2012",
+    "kind": "СП РК",
+    "number": "4.01-101-2012",
+    "title": "Внутренний водопровод и канализация зданий и сооружений",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "vk"
+    ],
+    "edition": "с изменениями по состоянию на 18.02.2025",
+    "introduced": "2015-07-01",
+    "superseded_by": null,
+    "path": "catalog/kz/sp-rk-4.01-101-2012.yaml"
+  },
+  {
+    "id": "sn-rk-4.03-01-2011",
+    "kind": "СН РК",
+    "number": "4.03-01-2011",
+    "title": "Газораспределительные системы",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "gaz",
+      "teplo"
+    ],
+    "edition": "с изменениями и дополнениями по состоянию на 20.06.2025",
+    "introduced": "2015-07-01",
+    "superseded_by": null,
+    "path": "catalog/kz/sn-rk-4.03-01-2011.yaml"
+  },
+  {
+    "id": "sp-rk-4.03-101-2013",
+    "kind": "СП РК",
+    "number": "4.03-101-2013",
+    "title": "Газораспределительные системы",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "gaz",
+      "teplo"
+    ],
+    "edition": "с изменениями и дополнениями по состоянию на 20.06.2025",
+    "introduced": "2015-07-01",
+    "superseded_by": null,
+    "path": "catalog/kz/sp-rk-4.03-101-2013.yaml"
+  },
+  {
+    "id": "sn-rk-3.06-01-2011",
+    "kind": "СН РК",
+    "number": "3.06-01-2011",
+    "title": "Доступность зданий и сооружений для маломобильных групп населения",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "dostupnost",
+      "ar"
+    ],
+    "edition": null,
+    "introduced": null,
+    "superseded_by": null,
+    "path": "catalog/kz/sn-rk-3.06-01-2011.yaml"
+  },
+  {
+    "id": "sn-rk-2.04-01-2011",
+    "kind": "СН РК",
+    "number": "2.04-01-2011",
+    "title": "Естественное и искусственное освещение",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "obshchie"
+    ],
+    "edition": "с изменениями по состоянию на 08.10.2024",
+    "introduced": "2015-01-01",
+    "superseded_by": null,
+    "path": "catalog/kz/sn-rk-2.04-01-2011.yaml"
+  },
+  {
+    "id": "sp-rk-3.02-101-2012",
+    "kind": "СП РК",
+    "number": "3.02-101-2012",
+    "title": "Здания жилые многоквартирные",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "ar",
+      "special"
+    ],
+    "edition": "с изменениями и дополнениями по состоянию на 11.08.2026",
+    "introduced": null,
+    "superseded_by": null,
+    "path": "catalog/kz/sp-rk-3.02-101-2012.yaml"
+  },
+  {
+    "id": "sp-rk-5.01-101-2013",
+    "kind": "СП РК",
+    "number": "5.01-101-2013",
+    "title": "Земляные сооружения, основания и фундаменты",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "osnovaniya",
+      "organizaciya"
+    ],
+    "edition": "с дополнениями от 10.06.2024",
+    "introduced": null,
+    "superseded_by": null,
+    "path": "catalog/kz/sp-rk-5.01-101-2013.yaml"
+  },
+  {
+    "id": "sp-rk-3.02-109-2012",
+    "kind": "СП РК",
+    "number": "3.02-109-2012",
+    "title": "Многофункциональные здания и комплексы",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "special",
+      "ar"
+    ],
+    "edition": "с изменениями от 07.08.2018",
+    "introduced": null,
+    "superseded_by": null,
+    "path": "catalog/kz/sp-rk-3.02-109-2012.yaml"
+  },
+  {
+    "id": "sp-rk-4.01-103-2013",
+    "kind": "СП РК",
+    "number": "4.01-103-2013",
+    "title": "Наружные сети и сооружения водоснабжения и канализации",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "naruzh",
+      "vk"
+    ],
+    "edition": "с изменениями и дополнениями по состоянию на 25.11.2025",
+    "introduced": null,
+    "superseded_by": null,
+    "path": "catalog/kz/sp-rk-4.01-103-2013.yaml"
+  },
+  {
+    "id": "sp-rk-3.02-107-2014",
+    "kind": "СП РК",
+    "number": "3.02-107-2014",
+    "title": "Общественные здания и сооружения",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "ar",
+      "special"
+    ],
+    "edition": "с изменениями и дополнениями по состоянию на 27.07.2026",
+    "introduced": null,
+    "superseded_by": null,
+    "path": "catalog/kz/sp-rk-3.02-107-2014.yaml"
+  },
+  {
+    "id": "sp-rk-5.01-102-2013",
+    "kind": "СП РК",
+    "number": "5.01-102-2013",
+    "title": "Основания зданий и сооружений",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "osnovaniya"
+    ],
+    "edition": "с изменениями и дополнениями по состоянию на 18.03.2021",
+    "introduced": null,
+    "superseded_by": null,
+    "path": "catalog/kz/sp-rk-5.01-102-2013.yaml"
+  },
+  {
+    "id": "sn-rk-4.02-01-2011",
+    "kind": "СН РК",
+    "number": "4.02-01-2011",
+    "title": "Отопление, вентиляция и кондиционирование воздуха",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "ov"
+    ],
+    "edition": "с изменениями и дополнениями по состоянию на 19.06.2024",
+    "introduced": "2015-07-01",
+    "superseded_by": null,
+    "path": "catalog/kz/sn-rk-4.02-01-2011.yaml"
+  },
+  {
+    "id": "sp-rk-4.02-101-2012",
+    "kind": "СП РК",
+    "number": "4.02-101-2012",
+    "title": "Отопление, вентиляция и кондиционирование воздуха",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "ov"
+    ],
+    "edition": "с изменениями и дополнениями по состоянию на 19.06.2024",
+    "introduced": "2015-07-01",
+    "superseded_by": null,
+    "path": "catalog/kz/sp-rk-4.02-101-2012.yaml"
+  },
+  {
+    "id": "sp-rk-2.02-102-2022",
+    "kind": "СП РК",
+    "number": "2.02-102-2022",
+    "title": "Пожарная автоматика зданий и сооружений",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "ps",
+      "pozh"
+    ],
+    "edition": "с изменениями по состоянию на 08.10.2024",
+    "introduced": null,
+    "superseded_by": null,
+    "path": "catalog/kz/sp-rk-2.02-102-2022.yaml"
+  },
+  {
+    "id": "sn-rk-2.02-01-2023",
+    "kind": "СН РК",
+    "number": "2.02-01-2023",
+    "title": "Пожарная безопасность зданий и сооружений",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "pozh",
+      "ps",
+      "ar"
+    ],
+    "edition": "с изменениями от 11.08.2026",
+    "introduced": "2023-06-16",
+    "superseded_by": null,
+    "path": "catalog/kz/sn-rk-2.02-01-2023.yaml"
+  },
+  {
+    "id": "ntp-rk-4.01-05-2014",
+    "kind": "НТП РК",
+    "number": "4.01-05-2014",
+    "title": "Проектирование внеплощадочных систем водоснабжения и водоотведения",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "vk"
+    ],
+    "edition": null,
+    "introduced": "2015-05-01",
+    "superseded_by": null,
+    "path": "catalog/kz/ntp-rk-4.01-05-2014.yaml"
+  },
+  {
+    "id": "sp-rk-4.02-102-2012",
+    "kind": "СП РК",
+    "number": "4.02-102-2012",
+    "title": "Проектирование тепловой изоляции оборудования и трубопроводов",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "teplo",
+      "ov"
+    ],
+    "edition": null,
+    "introduced": "2015-07-01",
+    "superseded_by": null,
+    "path": "catalog/kz/sp-rk-4.02-102-2012.yaml"
+  },
+  {
+    "id": "sp-rk-3.02-127-2013",
+    "kind": "СП РК",
+    "number": "3.02-127-2013",
+    "title": "Производственные здания",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "ar",
+      "special"
+    ],
+    "edition": "с изменениями по состоянию на 25.09.2026",
+    "introduced": null,
+    "superseded_by": null,
+    "path": "catalog/kz/sp-rk-3.02-127-2013.yaml"
+  },
+  {
+    "id": "st-rk-4044-2026",
+    "kind": "СТ РК",
+    "number": "4044-2026",
+    "title": "Системы видеонаблюдения. Требования к типам и размещению видеокамер",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "os"
+    ],
+    "edition": null,
+    "introduced": "2026-09-01",
+    "superseded_by": null,
+    "path": "catalog/kz/st-rk-4044-2026.yaml"
+  },
+  {
+    "id": "st-rk-1236-2004",
+    "kind": "СТ РК",
+    "number": "1236-2004",
+    "title": "Системы пожарной сигнализации адресные. Общие технические требования. Методы испытаний",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "ps"
+    ],
+    "edition": null,
+    "introduced": null,
+    "superseded_by": null,
+    "path": "catalog/kz/st-rk-1236-2004.yaml"
+  },
+  {
+    "id": "sn-rk-4.02-02-2011",
+    "kind": "СН РК",
+    "number": "4.02-02-2011",
+    "title": "Тепловая изоляция оборудования и трубопроводов",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "teplo",
+      "ov"
+    ],
+    "edition": null,
+    "introduced": "2015-07-01",
+    "superseded_by": null,
+    "path": "catalog/kz/sn-rk-4.02-02-2011.yaml"
+  },
+  {
+    "id": "sp-rk-4.02-104-2013",
+    "kind": "СП РК",
+    "number": "4.02-104-2013",
+    "title": "Тепловые сети",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "teplo"
+    ],
+    "edition": "с изменениями и дополнениями по состоянию на 01.04.2019",
+    "introduced": "2015-07-01",
+    "superseded_by": null,
+    "path": "catalog/kz/sp-rk-4.02-104-2013.yaml"
+  },
+  {
+    "id": "snip-rk-3.02-10-2010",
+    "kind": "СНиП РК",
+    "number": "3.02-10-2010",
+    "title": "Устройство систем связи, сигнализации и диспетчеризации инженерного оборудования жилых и общественных зданий",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "ss",
+      "avtomatika"
+    ],
+    "edition": null,
+    "introduced": null,
+    "superseded_by": null,
+    "path": "catalog/kz/snip-rk-3.02-10-2010.yaml"
+  },
+  {
+    "id": "sp-rk-4.04-106-2013",
+    "kind": "СП РК",
+    "number": "4.04-106-2013",
+    "title": "Электрооборудование жилых и общественных зданий. Правила проектирования",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "elektro"
+    ],
+    "edition": "с изменениями и дополнениями по состоянию на 2025",
+    "introduced": null,
+    "superseded_by": null,
+    "path": "catalog/kz/sp-rk-4.04-106-2013.yaml"
+  },
+  {
+    "id": "sp-rk-2.02-102-2012",
+    "kind": "СП РК",
+    "number": "2.02-102-2012",
+    "title": "Пожарная автоматика зданий и сооружений",
+    "jurisdiction": "kz",
+    "status": "заменён",
+    "scope": [
+      "ps",
+      "pozh"
+    ],
+    "edition": null,
+    "introduced": "2015-07-01",
+    "superseded_by": "sp-rk-2.02-102-2022",
+    "path": "catalog/kz/sp-rk-2.02-102-2012.yaml"
+  },
+  {
+    "id": "sp-44.13330.2011",
+    "kind": "СП",
+    "number": "44.13330.2011",
+    "title": "Административные и бытовые здания",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ar"
+    ],
+    "edition": "с Изменениями № 1, 2",
+    "introduced": "2011-05-20",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-44.13330.2011.yaml"
+  },
+  {
+    "id": "sp-63.13330.2018",
+    "kind": "СП",
+    "number": "63.13330.2018",
+    "title": "Бетонные и железобетонные конструкции. Основные положения",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "konstrukcii"
+    ],
+    "edition": "с Изменениями № 1, 2",
+    "introduced": "2019-06-20",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-63.13330.2018.yaml"
+  },
+  {
+    "id": "sp-73.13330.2016",
+    "kind": "СП",
+    "number": "73.13330.2016",
+    "title": "Внутренние санитарно-технические системы зданий",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "vk",
+      "ov"
+    ],
+    "edition": "с Изменениями № 1, 2, 3",
+    "introduced": "2017-04-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-73.13330.2016.yaml"
+  },
+  {
+    "id": "sp-30.13330.2016",
+    "kind": "СП",
+    "number": "30.13330.2016",
+    "title": "Внутренний водопровод и канализация зданий",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "vk"
+    ],
+    "edition": "с Поправкой, с Изменением № 1",
+    "introduced": "2017-06-17",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-30.13330.2016.yaml"
+  },
+  {
+    "id": "sp-31.13330.2021",
+    "kind": "СП",
+    "number": "31.13330.2021",
+    "title": "Водоснабжение. Наружные сети и сооружения",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "naruzh",
+      "vk"
+    ],
+    "edition": "с Изменениями № 1, 2",
+    "introduced": "2022-01-28",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-31.13330.2021.yaml"
+  },
+  {
+    "id": "sp-154.13130.2013",
+    "kind": "СП",
+    "number": "154.13130.2013",
+    "title": "Встроенные подземные автостоянки. Требования пожарной безопасности",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "pozh",
+      "special"
+    ],
+    "edition": null,
+    "introduced": "2013-02-25",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-154.13130.2013.yaml"
+  },
+  {
+    "id": "sp-62.13330.2011",
+    "kind": "СП",
+    "number": "62.13330.2011",
+    "title": "Газораспределительные системы",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "gaz",
+      "naruzh"
+    ],
+    "edition": "с Изменениями № 1-4",
+    "introduced": "2013-01-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-62.13330.2011.yaml"
+  },
+  {
+    "id": "sp-140.13330.2012",
+    "kind": "СП",
+    "number": "140.13330.2012",
+    "title": "Городская среда. Правила проектирования для маломобильных групп населения",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "dostupnost",
+      "grafo"
+    ],
+    "edition": "с Изменениями № 1, 2",
+    "introduced": "2013-07-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-140.13330.2012.yaml"
+  },
+  {
+    "id": "sp-42.13330.2016",
+    "kind": "СП",
+    "number": "42.13330.2016",
+    "title": "Градостроительство. Планировка и застройка городских и сельских поселений",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "grafo",
+      "naruzh"
+    ],
+    "edition": "с Изменениями № 1-4",
+    "introduced": "2017-07-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-42.13330.2016.yaml"
+  },
+  {
+    "id": "sp-64.13330.2017",
+    "kind": "СП",
+    "number": "64.13330.2017",
+    "title": "Деревянные конструкции",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "konstrukcii"
+    ],
+    "edition": "с Изменениями № 1-4",
+    "introduced": "2017-08-28",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-64.13330.2017.yaml"
+  },
+  {
+    "id": "sp-59.13330.2020",
+    "kind": "СП",
+    "number": "59.13330.2020",
+    "title": "Доступность зданий и сооружений для маломобильных групп населения",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "dostupnost",
+      "ar"
+    ],
+    "edition": "с Изменениями № 1-4",
+    "introduced": "2021-07-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-59.13330.2020.yaml"
+  },
+  {
+    "id": "sp-52.13330.2016",
+    "kind": "СП",
+    "number": "52.13330.2016",
+    "title": "Естественное и искусственное освещение",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "elektro",
+      "ar"
+    ],
+    "edition": "с Изменениями № 1, 2",
+    "introduced": "2017-05-08",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-52.13330.2016.yaml"
+  },
+  {
+    "id": "sp-137.13330.2012",
+    "kind": "СП",
+    "number": "137.13330.2012",
+    "title": "Жилая среда с планировочными элементами, доступными инвалидам",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "dostupnost",
+      "ar"
+    ],
+    "edition": "с Изменениями № 1, 2",
+    "introduced": "2013-07-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-137.13330.2012.yaml"
+  },
+  {
+    "id": "sp-51.13330.2011",
+    "kind": "СП",
+    "number": "51.13330.2011",
+    "title": "Защита от шума",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ov",
+      "teplo"
+    ],
+    "edition": "с Изменениями № 1-4",
+    "introduced": "2011-05-20",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-51.13330.2011.yaml"
+  },
+  {
+    "id": "sp-28.13330.2017",
+    "kind": "СП",
+    "number": "28.13330.2017",
+    "title": "Защита строительных конструкций от коррозии",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "konstrukcii"
+    ],
+    "edition": "с Изменениями № 1-4",
+    "introduced": "2017-08-28",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-28.13330.2017.yaml"
+  },
+  {
+    "id": "sp-54.13330.2016",
+    "kind": "СП",
+    "number": "54.13330.2016",
+    "title": "Здания жилые многоквартирные",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ar"
+    ],
+    "edition": "с Изменениями № 1-3",
+    "introduced": "2017-06-04",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-54.13330.2016.yaml"
+  },
+  {
+    "id": "sp-402.1325800.2018",
+    "kind": "СП",
+    "number": "402.1325800.2018",
+    "title": "Здания жилые. Правила проектирования систем газопотребления",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "gaz"
+    ],
+    "edition": "с Изменением № 1",
+    "introduced": "2019-06-06",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-402.1325800.2018.yaml"
+  },
+  {
+    "id": "sp-160.1325800.2014",
+    "kind": "СП",
+    "number": "160.1325800.2014",
+    "title": "Здания и комплексы многофункциональные. Правила проектирования",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "special",
+      "ar"
+    ],
+    "edition": "с Изменениями № 1-3",
+    "introduced": "2014-09-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-160.1325800.2014.yaml"
+  },
+  {
+    "id": "sp-21.13330.2012",
+    "kind": "СП",
+    "number": "21.13330.2012",
+    "title": "Здания и сооружения на подрабатываемых территориях и просадочных грунтах",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "osnovaniya"
+    ],
+    "edition": "с Изменением № 1",
+    "introduced": "2013-01-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-21.13330.2012.yaml"
+  },
+  {
+    "id": "sp-136.13330.2012",
+    "kind": "СП",
+    "number": "136.13330.2012",
+    "title": "Здания и сооружения. Общие положения проектирования с учётом доступности для маломобильных групп населения",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "dostupnost"
+    ],
+    "edition": "с Изменениями № 1, 2",
+    "introduced": "2013-07-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-136.13330.2012.yaml"
+  },
+  {
+    "id": "gost-31937-2024",
+    "kind": "ГОСТ",
+    "number": "31937-2024",
+    "title": "Здания и сооружения. Правила обследования и мониторинга технического состояния",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "inzashchita"
+    ],
+    "edition": "с Поправкой",
+    "introduced": "2024-05-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-31937-2024.yaml"
+  },
+  {
+    "id": "sp-251.1325800.2016",
+    "kind": "СП",
+    "number": "251.1325800.2016",
+    "title": "Здания общеобразовательных организаций. Правила проектирования",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "special",
+      "ar"
+    ],
+    "edition": "с Изменениями № 1-7",
+    "introduced": "2017-02-18",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-251.1325800.2016.yaml"
+  },
+  {
+    "id": "sp-45.13330.2017",
+    "kind": "СП",
+    "number": "45.13330.2017",
+    "title": "Земляные сооружения, основания и фундаменты",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "osnovaniya",
+      "organizaciya"
+    ],
+    "edition": "с Изменениями № 1-4",
+    "introduced": "2017-08-28",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-45.13330.2017.yaml"
+  },
+  {
+    "id": "sp-71.13330.2017",
+    "kind": "СП",
+    "number": "71.13330.2017",
+    "title": "Изоляционные и отделочные покрытия",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "konstrukcii",
+      "organizaciya"
+    ],
+    "edition": "с Изменениями № 1-4",
+    "introduced": "2017-08-28",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-71.13330.2017.yaml"
+  },
+  {
+    "id": "sp-104.13330.2016",
+    "kind": "СП",
+    "number": "104.13330.2016",
+    "title": "Инженерная защита территории от затопления и подтопления",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "inzashchita"
+    ],
+    "edition": "с Изменениями № 1, 2",
+    "introduced": "2017-06-17",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-104.13330.2016.yaml"
+  },
+  {
+    "id": "sp-116.13330.2012",
+    "kind": "СП",
+    "number": "116.13330.2012",
+    "title": "Инженерная защита территорий, зданий и сооружений от опасных геологических процессов",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "inzashchita"
+    ],
+    "edition": "с Изменениями № 1, 2",
+    "introduced": "2013-01-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-116.13330.2012.yaml"
+  },
+  {
+    "id": "sp-47.13330.2016",
+    "kind": "СП",
+    "number": "47.13330.2016",
+    "title": "Инженерные изыскания для строительства. Основные положения",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "osnovaniya",
+      "obshchie"
+    ],
+    "edition": "с Изменением № 1",
+    "introduced": "2017-07-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-47.13330.2016.yaml"
+  },
+  {
+    "id": "gost-r-53245-2008",
+    "kind": "ГОСТ Р",
+    "number": "53245-2008",
+    "title": "Информационные технологии. Системы кабельные структурированные. Монтаж основных узлов системы. Методы испытаний",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ss"
+    ],
+    "edition": null,
+    "introduced": "2010-01-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-53245-2008.yaml"
+  },
+  {
+    "id": "gost-r-53246-2008",
+    "kind": "ГОСТ Р",
+    "number": "53246-2008",
+    "title": "Информационные технологии. Системы кабельные структурированные. Проектирование основных узлов системы. Общие требования",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ss"
+    ],
+    "edition": null,
+    "introduced": "2010-01-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-53246-2008.yaml"
+  },
+  {
+    "id": "sp-15.13330.2020",
+    "kind": "СП",
+    "number": "15.13330.2020",
+    "title": "Каменные и армокаменные конструкции",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "konstrukcii"
+    ],
+    "edition": "с Изменением № 1",
+    "introduced": "2021-07-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-15.13330.2020.yaml"
+  },
+  {
+    "id": "sp-32.13330.2018",
+    "kind": "СП",
+    "number": "32.13330.2018",
+    "title": "Канализация. Наружные сети и сооружения",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "naruzh",
+      "vk"
+    ],
+    "edition": "с Изменениями № 1-5",
+    "introduced": "2019-06-26",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-32.13330.2018.yaml"
+  },
+  {
+    "id": "sp-89.13330.2016",
+    "kind": "СП",
+    "number": "89.13330.2016",
+    "title": "Котельные установки",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "teplo",
+      "special"
+    ],
+    "edition": "с Изменением № 1",
+    "introduced": "2017-06-17",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-89.13330.2016.yaml"
+  },
+  {
+    "id": "sp-17.13330.2017",
+    "kind": "СП",
+    "number": "17.13330.2017",
+    "title": "Кровли",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "konstrukcii",
+      "ar"
+    ],
+    "edition": "с Изменениями № 1-5",
+    "introduced": "2017-12-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-17.13330.2017.yaml"
+  },
+  {
+    "id": "sp-20.13330.2016",
+    "kind": "СП",
+    "number": "20.13330.2016",
+    "title": "Нагрузки и воздействия",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "obshchie"
+    ],
+    "edition": "с Изменениями № 1-6",
+    "introduced": "2017-06-04",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-20.13330.2016.yaml"
+  },
+  {
+    "id": "sp-70.13330.2012",
+    "kind": "СП",
+    "number": "70.13330.2012",
+    "title": "Несущие и ограждающие конструкции",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "konstrukcii",
+      "organizaciya"
+    ],
+    "edition": "с Изменениями № 1, 3-8",
+    "introduced": "2013-07-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-70.13330.2012.yaml"
+  },
+  {
+    "id": "sp-132.13330.2011",
+    "kind": "СП",
+    "number": "132.13330.2011",
+    "title": "Обеспечение антитеррористической защищённости зданий и сооружений. Общие требования проектирования",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "os"
+    ],
+    "edition": null,
+    "introduced": "2011-09-20",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-132.13330.2011.yaml"
+  },
+  {
+    "id": "sp-118.13330.2012",
+    "kind": "СП",
+    "number": "118.13330.2012",
+    "title": "Общественные здания и сооружения",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ar"
+    ],
+    "edition": "с Изменениями № 1-4",
+    "introduced": "2014-09-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-118.13330.2012.yaml"
+  },
+  {
+    "id": "sp-12.13130.2009",
+    "kind": "СП",
+    "number": "12.13130.2009",
+    "title": "Определение категорий помещений, зданий и наружных установок по взрывопожарной и пожарной опасности",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "pozh",
+      "special"
+    ],
+    "edition": null,
+    "introduced": "2009-05-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-12.13130.2009.yaml"
+  },
+  {
+    "id": "sp-48.13330.2019",
+    "kind": "СП",
+    "number": "48.13330.2019",
+    "title": "Организация строительства",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "organizaciya"
+    ],
+    "edition": "с Изменениями № 1, 2",
+    "introduced": "2020-06-25",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-48.13330.2019.yaml"
+  },
+  {
+    "id": "sp-22.13330.2016",
+    "kind": "СП",
+    "number": "22.13330.2016",
+    "title": "Основания зданий и сооружений",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "osnovaniya"
+    ],
+    "edition": "с Изменениями № 1-5",
+    "introduced": "2017-07-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-22.13330.2016.yaml"
+  },
+  {
+    "id": "sp-25.13330.2020",
+    "kind": "СП",
+    "number": "25.13330.2020",
+    "title": "Основания и фундаменты на вечномерзлых грунтах",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "osnovaniya"
+    ],
+    "edition": "с Изменениями № 1-3",
+    "introduced": "2021-07-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-25.13330.2020.yaml"
+  },
+  {
+    "id": "sp-60.13330.2020",
+    "kind": "СП",
+    "number": "60.13330.2020",
+    "title": "Отопление, вентиляция и кондиционирование воздуха",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ov"
+    ],
+    "edition": "с Поправкой, с Изменениями № 1-6",
+    "introduced": "2021-07-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-60.13330.2020.yaml"
+  },
+  {
+    "id": "sp-7.13130.2013",
+    "kind": "СП",
+    "number": "7.13130.2013",
+    "title": "Отопление, вентиляция и кондиционирование. Требования пожарной безопасности",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ov",
+      "pozh"
+    ],
+    "edition": "с Изменениями № 1-3",
+    "introduced": "2013-02-25",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-7.13130.2013.yaml"
+  },
+  {
+    "id": "sp-29.13330.2011",
+    "kind": "СП",
+    "number": "29.13330.2011",
+    "title": "Полы",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "konstrukcii",
+      "ar"
+    ],
+    "edition": "с Изменениями № 1-4",
+    "introduced": "2011-05-20",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-29.13330.2011.yaml"
+  },
+  {
+    "id": "sp-56.13330.2011",
+    "kind": "СП",
+    "number": "56.13330.2011",
+    "title": "Производственные здания",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ar"
+    ],
+    "edition": "с Изменениями № 1, 2",
+    "introduced": "2011-05-20",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-56.13330.2011.yaml"
+  },
+  {
+    "id": "sp-24.13330.2021",
+    "kind": "СП",
+    "number": "24.13330.2021",
+    "title": "Свайные фундаменты",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "osnovaniya"
+    ],
+    "edition": "с Изменениями № 1, 2",
+    "introduced": "2022-01-15",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-24.13330.2021.yaml"
+  },
+  {
+    "id": "sp-133.13330.2012",
+    "kind": "СП",
+    "number": "133.13330.2012",
+    "title": "Сети проводного радиовещания и оповещения в зданиях и сооружениях",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ss"
+    ],
+    "edition": null,
+    "introduced": "2012-09-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-133.13330.2012.yaml"
+  },
+  {
+    "id": "gost-21.208-2013",
+    "kind": "ГОСТ",
+    "number": "21.208-2013",
+    "title": "Система проектной документации для строительства. Автоматизация технологических процессов. Обозначения условные приборов и средств автоматизации в схемах",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "obshchie",
+      "avtomatika"
+    ],
+    "edition": null,
+    "introduced": "2014-11-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-21.208-2013.yaml"
+  },
+  {
+    "id": "gost-r-21.1101-2013",
+    "kind": "ГОСТ Р",
+    "number": "21.1101-2013",
+    "title": "Система проектной документации для строительства. Основные требования к проектной и рабочей документации",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "obshchie",
+      "ar"
+    ],
+    "edition": null,
+    "introduced": "2014-01-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-21.1101-2013.yaml"
+  },
+  {
+    "id": "gost-21.408-2013",
+    "kind": "ГОСТ",
+    "number": "21.408-2013",
+    "title": "Система проектной документации для строительства. Правила выполнения рабочей документации автоматизации технологических процессов",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "obshchie",
+      "avtomatika"
+    ],
+    "edition": null,
+    "introduced": "2014-11-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-21.408-2013.yaml"
+  },
+  {
+    "id": "gost-21.501-2018",
+    "kind": "ГОСТ",
+    "number": "21.501-2018",
+    "title": "Система проектной документации для строительства. Правила выполнения рабочей документации архитектурных и конструктивных решений",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "obshchie",
+      "ar"
+    ],
+    "edition": null,
+    "introduced": "2019-06-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-21.501-2018.yaml"
+  },
+  {
+    "id": "gost-21.601-2011",
+    "kind": "ГОСТ",
+    "number": "21.601-2011",
+    "title": "Система проектной документации для строительства. Правила выполнения рабочей документации внутренних систем водоснабжения и канализации",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "obshchie",
+      "vk"
+    ],
+    "edition": null,
+    "introduced": "2013-05-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-21.601-2011.yaml"
+  },
+  {
+    "id": "gost-21.508-2020",
+    "kind": "ГОСТ",
+    "number": "21.508-2020",
+    "title": "Система проектной документации для строительства. Правила выполнения рабочей документации генеральных планов предприятий, сооружений и жилищно-гражданских объектов",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "obshchie",
+      "grafo"
+    ],
+    "edition": null,
+    "introduced": "2021-01-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-21.508-2020.yaml"
+  },
+  {
+    "id": "gost-21.613-2014",
+    "kind": "ГОСТ",
+    "number": "21.613-2014",
+    "title": "Система проектной документации для строительства. Правила выполнения рабочей документации оборудования, трубопроводов и систем автоматизации",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "obshchie",
+      "avtomatika"
+    ],
+    "edition": null,
+    "introduced": "2015-07-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-21.613-2014.yaml"
+  },
+  {
+    "id": "gost-21.110-2013",
+    "kind": "ГОСТ",
+    "number": "21.110-2013",
+    "title": "Система проектной документации для строительства. Правила выполнения спецификации оборудования, изделий и материалов",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "obshchie"
+    ],
+    "edition": null,
+    "introduced": "2015-01-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-21.110-2013.yaml"
+  },
+  {
+    "id": "gost-r-54831-2011",
+    "kind": "ГОСТ Р",
+    "number": "54831-2011",
+    "title": "Системы контроля и управления доступом. Устройства преграждающие управляемые. Общие технические требования. Методы испытаний",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "skud"
+    ],
+    "edition": null,
+    "introduced": "2012-09-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-54831-2011.yaml"
+  },
+  {
+    "id": "gost-r-59639-2021",
+    "kind": "ГОСТ Р",
+    "number": "59639-2021",
+    "title": "Системы оповещения и управления эвакуацией людей при пожаре. Руководство по проектированию, монтажу, техническому обслуживанию и ремонту",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ps",
+      "ss"
+    ],
+    "edition": null,
+    "introduced": "2021-09-15",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-59639-2021.yaml"
+  },
+  {
+    "id": "gost-r-52551-2016",
+    "kind": "ГОСТ Р",
+    "number": "52551-2016",
+    "title": "Системы охраны и безопасности. Термины и определения",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "os",
+      "skud"
+    ],
+    "edition": null,
+    "introduced": "2017-07-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-52551-2016.yaml"
+  },
+  {
+    "id": "gost-r-59638-2021",
+    "kind": "ГОСТ Р",
+    "number": "59638-2021",
+    "title": "Системы пожарной сигнализации. Руководство по проектированию, монтажу, техническому обслуживанию и ремонту",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ps"
+    ],
+    "edition": null,
+    "introduced": "2021-09-15",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-59638-2021.yaml"
+  },
+  {
+    "id": "sp-10.13130.2020",
+    "kind": "СП",
+    "number": "10.13130.2020",
+    "title": "Системы противопожарной защиты. Внутренний противопожарный водопровод. Требования пожарной безопасности",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "pozh",
+      "vk"
+    ],
+    "edition": null,
+    "introduced": "2021-01-27",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-10.13130.2020.yaml"
+  },
+  {
+    "id": "sp-8.13130.2020",
+    "kind": "СП",
+    "number": "8.13130.2020",
+    "title": "Системы противопожарной защиты. Наружное противопожарное водоснабжение. Требования пожарной безопасности",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "pozh",
+      "vk"
+    ],
+    "edition": null,
+    "introduced": "2020-09-30",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-8.13130.2020.yaml"
+  },
+  {
+    "id": "sp-2.13130.2020",
+    "kind": "СП",
+    "number": "2.13130.2020",
+    "title": "Системы противопожарной защиты. Обеспечение огнестойкости объектов защиты",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "pozh",
+      "ar"
+    ],
+    "edition": null,
+    "introduced": "2020-09-12",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-2.13130.2020.yaml"
+  },
+  {
+    "id": "sp-4.13130.2013",
+    "kind": "СП",
+    "number": "4.13130.2013",
+    "title": "Системы противопожарной защиты. Ограничение распространения пожара на объектах защиты. Требования к объёмно-планировочным решениям",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "pozh",
+      "ar"
+    ],
+    "edition": "с Изменениями № 1-4",
+    "introduced": "2013-06-24",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-4.13130.2013.yaml"
+  },
+  {
+    "id": "sp-486.1311500.2020",
+    "kind": "СП",
+    "number": "486.1311500.2020",
+    "title": "Системы противопожарной защиты. Перечень зданий, сооружений, помещений и оборудования, подлежащих защите автоматическими установками пожаротушения и системами пожарной сигнализации",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ps",
+      "pozh"
+    ],
+    "edition": null,
+    "introduced": "2021-03-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-486.1311500.2020.yaml"
+  },
+  {
+    "id": "sp-3.13130.2009",
+    "kind": "СП",
+    "number": "3.13130.2009",
+    "title": "Системы противопожарной защиты. Система оповещения и управления эвакуацией людей при пожаре. Требования пожарной безопасности",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ps",
+      "ss",
+      "pozh"
+    ],
+    "edition": null,
+    "introduced": "2009-05-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-3.13130.2009.yaml"
+  },
+  {
+    "id": "sp-484.1311500.2020",
+    "kind": "СП",
+    "number": "484.1311500.2020",
+    "title": "Системы противопожарной защиты. Системы пожарной сигнализации и автоматизация систем противопожарной защиты. Нормы и правила проектирования",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ps",
+      "pozh"
+    ],
+    "edition": null,
+    "introduced": "2021-03-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-484.1311500.2020.yaml"
+  },
+  {
+    "id": "sp-485.1311500.2020",
+    "kind": "СП",
+    "number": "485.1311500.2020",
+    "title": "Системы противопожарной защиты. Установки пожаротушения автоматические. Нормы и правила проектирования",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ps",
+      "pozh"
+    ],
+    "edition": null,
+    "introduced": "2021-03-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-485.1311500.2020.yaml"
+  },
+  {
+    "id": "sp-1.13130.2020",
+    "kind": "СП",
+    "number": "1.13130.2020",
+    "title": "Системы противопожарной защиты. Эвакуационные пути и выходы",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "pozh",
+      "ar"
+    ],
+    "edition": null,
+    "introduced": "2020-09-19",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-1.13130.2020.yaml"
+  },
+  {
+    "id": "sp-134.13330.2012",
+    "kind": "СП",
+    "number": "134.13330.2012",
+    "title": "Системы электросвязи зданий и сооружений. Основные положения проектирования",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ss"
+    ],
+    "edition": null,
+    "introduced": "2012-09-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-134.13330.2012.yaml"
+  },
+  {
+    "id": "gost-r-51241-2008",
+    "kind": "ГОСТ Р",
+    "number": "51241-2008",
+    "title": "Средства и системы контроля и управления доступом. Классификация. Общие технические требования. Методы испытаний",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "skud"
+    ],
+    "edition": null,
+    "introduced": "2009-09-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-51241-2008.yaml"
+  },
+  {
+    "id": "gost-r-51558-2014",
+    "kind": "ГОСТ Р",
+    "number": "51558-2014",
+    "title": "Средства и системы охранные телевизионные. Классификация. Общие технические требования. Методы испытаний",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "os"
+    ],
+    "edition": null,
+    "introduced": "2016-01-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-51558-2014.yaml"
+  },
+  {
+    "id": "sp-16.13330.2017",
+    "kind": "СП",
+    "number": "16.13330.2017",
+    "title": "Стальные конструкции",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "konstrukcii"
+    ],
+    "edition": "с Поправками, с Изменениями № 1-6",
+    "introduced": "2017-08-28",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-16.13330.2017.yaml"
+  },
+  {
+    "id": "sp-113.13330.2016",
+    "kind": "СП",
+    "number": "113.13330.2016",
+    "title": "Стоянки автомобилей",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "special",
+      "pozh"
+    ],
+    "edition": "с Изменением № 1",
+    "introduced": "2017-05-08",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-113.13330.2016.yaml"
+  },
+  {
+    "id": "sp-131.13330.2025",
+    "kind": "СП",
+    "number": "131.13330.2025",
+    "title": "Строительная климатология",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ov",
+      "obshchie"
+    ],
+    "edition": null,
+    "introduced": "2025-09-09",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-131.13330.2025.yaml"
+  },
+  {
+    "id": "sp-50.13330.2024",
+    "kind": "СП",
+    "number": "50.13330.2024",
+    "title": "Тепловая защита зданий",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ov",
+      "teplo"
+    ],
+    "edition": null,
+    "introduced": "2024-06-16",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-50.13330.2024.yaml"
+  },
+  {
+    "id": "sp-61.13330.2012",
+    "kind": "СП",
+    "number": "61.13330.2012",
+    "title": "Тепловая изоляция оборудования и трубопроводов",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ov",
+      "teplo"
+    ],
+    "edition": "с Изменениями № 1, 2",
+    "introduced": "2013-01-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-61.13330.2012.yaml"
+  },
+  {
+    "id": "sp-124.13330.2012",
+    "kind": "СП",
+    "number": "124.13330.2012",
+    "title": "Тепловые сети",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "teplo"
+    ],
+    "edition": "с Изменениями № 1-5",
+    "introduced": "2013-01-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-124.13330.2012.yaml"
+  },
+  {
+    "id": "gost-r-53325-2012",
+    "kind": "ГОСТ Р",
+    "number": "53325-2012",
+    "title": "Техника пожарная. Технические средства пожарной автоматики. Общие технические требования и методы испытаний",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ps"
+    ],
+    "edition": "с Изменениями № 1-3",
+    "introduced": "2014-01-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-53325-2012.yaml"
+  },
+  {
+    "id": "sp-256.1325800.2016",
+    "kind": "СП",
+    "number": "256.1325800.2016",
+    "title": "Электроустановки жилых и общественных зданий. Правила проектирования и монтажа",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "elektro"
+    ],
+    "edition": "с Изменениями № 1-4",
+    "introduced": "2017-03-02",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-256.1325800.2016.yaml"
+  },
+  {
+    "id": "sp-5.13130.2009",
+    "kind": "СП",
+    "number": "5.13130.2009",
+    "title": "Системы противопожарной защиты. Установки пожарной сигнализации и пожаротушения автоматические. Нормы и правила проектирования",
+    "jurisdiction": "ru",
+    "status": "частично_действует",
+    "scope": [
+      "ps",
+      "pozh"
+    ],
+    "edition": "с Изменением № 1",
+    "introduced": "2009-05-01",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-5.13130.2009.yaml"
+  },
+  {
+    "id": "sp-73.13330.2012",
+    "kind": "СП",
+    "number": "73.13330.2012",
+    "title": "Внутренние санитарно-технические системы зданий",
+    "jurisdiction": "ru",
+    "status": "заменён",
+    "scope": [
+      "vk",
+      "ov"
+    ],
+    "edition": null,
+    "introduced": "2013-01-01",
+    "superseded_by": "sp-73.13330.2016",
+    "path": "catalog/ru/sp-73.13330.2012.yaml"
+  },
+  {
+    "id": "sp-31.13330.2012",
+    "kind": "СП",
+    "number": "31.13330.2012",
+    "title": "Водоснабжение. Наружные сети и сооружения",
+    "jurisdiction": "ru",
+    "status": "заменён",
+    "scope": [
+      "vk"
+    ],
+    "edition": "с Изменениями № 1-5",
+    "introduced": "2013-01-01",
+    "superseded_by": "sp-31.13330.2021",
+    "path": "catalog/ru/sp-31.13330.2012.yaml"
+  },
+  {
+    "id": "gost-31937-2011",
+    "kind": "ГОСТ",
+    "number": "31937-2011",
+    "title": "Здания и сооружения. Правила обследования и мониторинга технического состояния",
+    "jurisdiction": "ru",
+    "status": "заменён",
+    "scope": [
+      "inzashchita"
+    ],
+    "edition": null,
+    "introduced": "2014-01-01",
+    "superseded_by": "gost-31937-2024",
+    "path": "catalog/ru/gost-31937-2011.yaml"
+  },
+  {
+    "id": "sp-32.13330.2012",
+    "kind": "СП",
+    "number": "32.13330.2012",
+    "title": "Канализация. Наружные сети и сооружения",
+    "jurisdiction": "ru",
+    "status": "заменён",
+    "scope": [
+      "vk"
+    ],
+    "edition": null,
+    "introduced": "2013-01-01",
+    "superseded_by": "sp-32.13330.2018",
+    "path": "catalog/ru/sp-32.13330.2012.yaml"
+  },
+  {
+    "id": "sp-60.13330.2016",
+    "kind": "СП",
+    "number": "60.13330.2016",
+    "title": "Отопление, вентиляция и кондиционирование воздуха",
+    "jurisdiction": "ru",
+    "status": "заменён",
+    "scope": [
+      "ov"
+    ],
+    "edition": "с Изменением № 1",
+    "introduced": "2017-06-17",
+    "superseded_by": "sp-60.13330.2020",
+    "path": "catalog/ru/sp-60.13330.2016.yaml"
+  },
+  {
+    "id": "sp-10.13130.2009",
+    "kind": "СП",
+    "number": "10.13130.2009",
+    "title": "Системы противопожарной защиты. Внутренний противопожарный водопровод. Требования пожарной безопасности",
+    "jurisdiction": "ru",
+    "status": "заменён",
+    "scope": [
+      "pozh",
+      "vk"
+    ],
+    "edition": null,
+    "introduced": "2009-05-01",
+    "superseded_by": "sp-10.13130.2020",
+    "path": "catalog/ru/sp-10.13130.2009.yaml"
+  },
+  {
+    "id": "sp-8.13130.2009",
+    "kind": "СП",
+    "number": "8.13130.2009",
+    "title": "Системы противопожарной защиты. Источники наружного противопожарного водоснабжения. Требования пожарной безопасности",
+    "jurisdiction": "ru",
+    "status": "заменён",
+    "scope": [
+      "pozh",
+      "vk"
+    ],
+    "edition": null,
+    "introduced": "2009-05-01",
+    "superseded_by": "sp-8.13130.2020",
+    "path": "catalog/ru/sp-8.13130.2009.yaml"
+  },
+  {
+    "id": "sp-2.13130.2012",
+    "kind": "СП",
+    "number": "2.13130.2012",
+    "title": "Системы противопожарной защиты. Обеспечение огнестойкости объектов защиты",
+    "jurisdiction": "ru",
+    "status": "заменён",
+    "scope": [
+      "pozh",
+      "ar"
+    ],
+    "edition": null,
+    "introduced": "2012-12-01",
+    "superseded_by": "sp-2.13130.2020",
+    "path": "catalog/ru/sp-2.13130.2012.yaml"
+  },
+  {
+    "id": "sp-1.13130.2009",
+    "kind": "СП",
+    "number": "1.13130.2009",
+    "title": "Системы противопожарной защиты. Эвакуационные пути и выходы",
+    "jurisdiction": "ru",
+    "status": "заменён",
+    "scope": [
+      "pozh",
+      "ar"
+    ],
+    "edition": null,
+    "introduced": "2009-05-01",
+    "superseded_by": "sp-1.13130.2020",
+    "path": "catalog/ru/sp-1.13130.2009.yaml"
+  },
+  {
+    "id": "sp-131.13330.2020",
+    "kind": "СП",
+    "number": "131.13330.2020",
+    "title": "Строительная климатология",
+    "jurisdiction": "ru",
+    "status": "заменён",
+    "scope": [
+      "ov",
+      "obshchie"
+    ],
+    "edition": null,
+    "introduced": "2021-06-25",
+    "superseded_by": "sp-131.13330.2025",
+    "path": "catalog/ru/sp-131.13330.2020.yaml"
+  },
+  {
+    "id": "sp-50.13330.2012",
+    "kind": "СП",
+    "number": "50.13330.2012",
+    "title": "Тепловая защита зданий",
+    "jurisdiction": "ru",
+    "status": "заменён",
+    "scope": [
+      "ov",
+      "teplo"
+    ],
+    "edition": null,
+    "introduced": "2013-07-01",
+    "superseded_by": "sp-50.13330.2024",
+    "path": "catalog/ru/sp-50.13330.2012.yaml"
+  }
+]

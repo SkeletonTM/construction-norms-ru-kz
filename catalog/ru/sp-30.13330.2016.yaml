@@ -1,0 +1,17 @@
+id: sp-30.13330.2016
+kind: СП
+number: 30.13330.2016
+title: Внутренний водопровод и канализация зданий
+jurisdiction: ru
+status: действует
+scope:
+- vk
+edition: с Поправкой, с Изменением № 1
+introduced: '2017-06-17'
+notes: 'Основной документ по внутреннему ВК: расчётные расходы, сети, арматура, канализационные стояки.'
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/456054201
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

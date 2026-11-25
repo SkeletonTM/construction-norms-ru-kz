@@ -1,0 +1,18 @@
+id: sp-51.13330.2011
+kind: СП
+number: 51.13330.2011
+title: Защита от шума
+jurisdiction: ru
+status: действует
+scope:
+- ov
+- teplo
+edition: с Изменениями № 1-4
+introduced: '2011-05-20'
+notes: Допустимые уровни шума и вибрации от систем отопления и вентиляции, мероприятия по снижению.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200084097
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

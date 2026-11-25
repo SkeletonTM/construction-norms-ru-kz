@@ -1,0 +1,16 @@
+id: sp-132.13330.2011
+kind: СП
+number: 132.13330.2011
+title: Обеспечение антитеррористической защищённости зданий и сооружений. Общие требования проектирования
+jurisdiction: ru
+status: действует
+scope:
+- os
+introduced: '2011-09-20'
+notes: Инженерно-техническая укреплённость, размещение средств наблюдения и контроля доступа по антитеррору.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200086072
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

@@ -1,0 +1,20 @@
+id: gost-21.602-2016
+kind: ГОСТ
+number: 21.602-2016
+title: Правила выполнения рабочей документации систем отопления, вентиляции и кондиционирования
+jurisdiction: both
+status: действует
+scope:
+- ov
+- obshchie
+introduced: '2017-07-01'
+applies_in_kz: true
+notes: 'Оформление рабочих чертежей ОВ: планы, схемы, спецификации. Действует в РФ и в РК.'
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200142447
+  kind: текст
+- url: https://prg.kz/document/?doc_id=35474283
+  kind: статус
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

@@ -1,0 +1,17 @@
+id: gost-21.208-2013
+kind: ГОСТ
+number: 21.208-2013
+title: Система проектной документации для строительства. Автоматизация технологических процессов. Обозначения условные приборов и средств автоматизации в схемах
+jurisdiction: ru
+status: действует
+scope:
+- obshchie
+- avtomatika
+introduced: '2014-11-01'
+notes: Условные обозначения приборов и датчиков на схемах автоматизации.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200108003
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

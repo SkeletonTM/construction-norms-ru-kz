@@ -1,0 +1,17 @@
+id: sp-64.13330.2017
+kind: СП
+number: 64.13330.2017
+title: Деревянные конструкции
+jurisdiction: ru
+status: действует
+scope:
+- konstrukcii
+edition: с Изменениями № 1-4
+introduced: '2017-08-28'
+notes: Расчёт и конструирование деревянных конструкций, соединения, защита от загнивания.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/456082589
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

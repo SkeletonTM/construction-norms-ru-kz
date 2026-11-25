@@ -1,0 +1,15 @@
+id: sp-rk-3.02-109-2012
+kind: СП РК
+number: 3.02-109-2012
+title: Многофункциональные здания и комплексы
+jurisdiction: kz
+status: действует
+scope:
+- special
+- ar
+edition: с изменениями от 07.08.2018
+notes: 'Казахстанский аналог СП 160.1325800: сочетание функций в одном здании.'
+updated: '2026-11-25'
+sources:
+- url: https://prg.kz/document/?doc_id=34068595
+  kind: текст

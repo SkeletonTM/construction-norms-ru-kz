@@ -1,0 +1,18 @@
+id: sp-140.13330.2012
+kind: СП
+number: 140.13330.2012
+title: Городская среда. Правила проектирования для маломобильных групп населения
+jurisdiction: ru
+status: действует
+scope:
+- dostupnost
+- grafo
+edition: с Изменениями № 1, 2
+introduced: '2013-07-01'
+notes: 'Доступность территорий: тротуары, пандусы, места парковки, пешеходные пути.'
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200101266
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

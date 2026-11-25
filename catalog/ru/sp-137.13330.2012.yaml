@@ -1,0 +1,18 @@
+id: sp-137.13330.2012
+kind: СП
+number: 137.13330.2012
+title: Жилая среда с планировочными элементами, доступными инвалидам
+jurisdiction: ru
+status: действует
+scope:
+- dostupnost
+- ar
+edition: с Изменениями № 1, 2
+introduced: '2013-07-01'
+notes: Доступные квартиры и планировочные элементы жилых зданий.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200102573
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

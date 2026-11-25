@@ -1,0 +1,14 @@
+id: sp-rk-5.01-102-2013
+kind: СП РК
+number: 5.01-102-2013
+title: Основания зданий и сооружений
+jurisdiction: kz
+status: действует
+scope:
+- osnovaniya
+edition: с изменениями и дополнениями по состоянию на 18.03.2021
+notes: 'Казахстанский аналог СП 22.13330: расчёт оснований, осадки.'
+updated: '2026-11-25'
+sources:
+- url: https://prg.kz/document/?doc_id=39343712
+  kind: текст

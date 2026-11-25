@@ -1,0 +1,17 @@
+id: sp-44.13330.2011
+kind: СП
+number: 44.13330.2011
+title: Административные и бытовые здания
+jurisdiction: ru
+status: действует
+scope:
+- ar
+edition: с Изменениями № 1, 2
+introduced: '2011-05-20'
+notes: 'Административно-бытовые здания: состав помещений, санитарно-бытовое обеспечение.'
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200084087
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

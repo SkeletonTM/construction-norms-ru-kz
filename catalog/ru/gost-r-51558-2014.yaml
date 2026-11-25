@@ -1,0 +1,16 @@
+id: gost-r-51558-2014
+kind: ГОСТ Р
+number: 51558-2014
+title: Средства и системы охранные телевизионные. Классификация. Общие технические требования. Методы испытаний
+jurisdiction: ru
+status: действует
+scope:
+- os
+introduced: '2016-01-01'
+notes: 'Базовый стандарт на системы видеонаблюдения: классы, требования к изображению, методы испытаний.'
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200113776
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

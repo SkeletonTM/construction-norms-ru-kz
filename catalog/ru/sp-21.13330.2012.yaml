@@ -1,0 +1,17 @@
+id: sp-21.13330.2012
+kind: СП
+number: 21.13330.2012
+title: Здания и сооружения на подрабатываемых территориях и просадочных грунтах
+jurisdiction: ru
+status: действует
+scope:
+- osnovaniya
+edition: с Изменением № 1
+introduced: '2013-01-01'
+notes: Дополнительные требования к зданиям на подрабатываемых территориях и просадочных грунтах.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200094386
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

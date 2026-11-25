@@ -1,0 +1,16 @@
+id: gost-r-51241-2008
+kind: ГОСТ Р
+number: 51241-2008
+title: Средства и системы контроля и управления доступом. Классификация. Общие технические требования. Методы испытаний
+jurisdiction: ru
+status: действует
+scope:
+- skud
+introduced: '2009-09-01'
+notes: Классификация СКУД и общие требования к средствам и системам.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200071688
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

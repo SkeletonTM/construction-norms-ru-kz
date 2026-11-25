@@ -1,0 +1,18 @@
+id: sp-2.13130.2012
+kind: СП
+number: 2.13130.2012
+title: Системы противопожарной защиты. Обеспечение огнестойкости объектов защиты
+jurisdiction: ru
+status: заменён
+scope:
+- pozh
+- ar
+introduced: '2012-12-01'
+superseded_by: sp-2.13130.2020
+notes: Заменён редакцией 2020 года.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200096437
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

@@ -1,0 +1,15 @@
+id: sp-rk-3.02-127-2013
+kind: СП РК
+number: 3.02-127-2013
+title: Производственные здания
+jurisdiction: kz
+status: действует
+scope:
+- ar
+- special
+edition: с изменениями по состоянию на 25.09.2026
+notes: 'Казахстанский аналог СП 56.13330: производственные здания, бытовые помещения.'
+updated: '2026-11-25'
+sources:
+- url: https://prg.kz/document/?doc_id=39606617
+  kind: текст

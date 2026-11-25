@@ -1,0 +1,16 @@
+id: sp-133.13330.2012
+kind: СП
+number: 133.13330.2012
+title: Сети проводного радиовещания и оповещения в зданиях и сооружениях
+jurisdiction: ru
+status: действует
+scope:
+- ss
+introduced: '2012-09-01'
+notes: 'Проводное радиовещание и оповещение: состав сетей, размещение оборудования, линии.'
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200092910
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

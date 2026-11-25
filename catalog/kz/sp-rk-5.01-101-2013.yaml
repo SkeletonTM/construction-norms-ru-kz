@@ -1,0 +1,15 @@
+id: sp-rk-5.01-101-2013
+kind: СП РК
+number: 5.01-101-2013
+title: Земляные сооружения, основания и фундаменты
+jurisdiction: kz
+status: действует
+scope:
+- osnovaniya
+- organizaciya
+edition: с дополнениями от 10.06.2024
+notes: 'Казахстанский аналог СП 45.13330: земляные работы и приёмка оснований.'
+updated: '2026-11-25'
+sources:
+- url: https://prg.kz/document/?doc_id=34578484
+  kind: текст

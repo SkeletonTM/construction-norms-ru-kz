@@ -1,0 +1,18 @@
+id: sp-10.13130.2009
+kind: СП
+number: 10.13130.2009
+title: Системы противопожарной защиты. Внутренний противопожарный водопровод. Требования пожарной безопасности
+jurisdiction: ru
+status: заменён
+scope:
+- pozh
+- vk
+introduced: '2009-05-01'
+superseded_by: sp-10.13130.2020
+notes: Заменён редакцией 2020 года.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200071153
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

@@ -1,0 +1,18 @@
+id: sp-17.13330.2017
+kind: СП
+number: 17.13330.2017
+title: Кровли
+jurisdiction: ru
+status: действует
+scope:
+- konstrukcii
+- ar
+edition: с Изменениями № 1-5
+introduced: '2017-12-01'
+notes: 'Кровли: уклоны, слои, воронки внутреннего водостока, примыкания. Связано с ВК и ОВ.'
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/456081632
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

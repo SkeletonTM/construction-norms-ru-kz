@@ -1,0 +1,18 @@
+id: sp-251.1325800.2016
+kind: СП
+number: 251.1325800.2016
+title: Здания общеобразовательных организаций. Правила проектирования
+jurisdiction: ru
+status: действует
+scope:
+- special
+- ar
+edition: с Изменениями № 1-7
+introduced: '2017-02-18'
+notes: 'Школы: состав и площади помещений, инженерное обеспечение, требования к лабораториям.'
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200139445
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

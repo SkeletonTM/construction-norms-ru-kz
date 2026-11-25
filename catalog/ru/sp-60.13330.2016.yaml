@@ -1,0 +1,20 @@
+id: sp-60.13330.2016
+kind: СП
+number: 60.13330.2016
+title: Отопление, вентиляция и кондиционирование воздуха
+jurisdiction: ru
+status: заменён
+scope:
+- ov
+edition: с Изменением № 1
+introduced: '2017-06-17'
+superseded_by: sp-60.13330.2020
+notes: Признан не подлежащим применению с даты введения СП 60.13330.2020, кроме отдельных пунктов.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/456054205
+  kind: текст
+- url: https://docs.cntd.ru/document/573696693
+  kind: приказ
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

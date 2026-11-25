@@ -1,0 +1,16 @@
+id: gost-r-54831-2011
+kind: ГОСТ Р
+number: 54831-2011
+title: Системы контроля и управления доступом. Устройства преграждающие управляемые. Общие технические требования. Методы испытаний
+jurisdiction: ru
+status: действует
+scope:
+- skud
+introduced: '2012-09-01'
+notes: Требования к турникетам, шлюзам, калиткам и другим преграждающим устройствам.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200091365
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

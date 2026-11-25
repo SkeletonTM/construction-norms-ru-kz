@@ -1,0 +1,20 @@
+id: sp-1.13130.2020
+kind: СП
+number: 1.13130.2020
+title: Системы противопожарной защиты. Эвакуационные пути и выходы
+jurisdiction: ru
+status: действует
+scope:
+- pozh
+- ar
+introduced: '2020-09-19'
+supersedes:
+- sp-1.13130.2009
+enacted_by: приказ МЧС России от 19.03.2020 № 194
+notes: 'Эвакуационные пути и выходы: количество, ширина, высота, расстояния. Проверяется вместе с СП 2.13130.2020.'
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/565248961
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

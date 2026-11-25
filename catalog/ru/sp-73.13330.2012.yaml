@@ -1,0 +1,18 @@
+id: sp-73.13330.2012
+kind: СП
+number: 73.13330.2012
+title: Внутренние санитарно-технические системы зданий
+jurisdiction: ru
+status: заменён
+scope:
+- vk
+- ov
+introduced: '2013-01-01'
+superseded_by: sp-73.13330.2016
+notes: Не подлежит применению. Нужен для проверки старых проектов и ссылок в заключениях экспертизы.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200091051
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

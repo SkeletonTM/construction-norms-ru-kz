@@ -1,0 +1,15 @@
+id: sp-24.13330.2021
+kind: СП
+number: 24.13330.2021
+title: Свайные фундаменты
+jurisdiction: ru
+status: действует
+scope:
+- osnovaniya
+edition: с Изменениями № 1, 2
+introduced: '2022-01-15'
+notes: 'Свайные фундаменты: типы свай, несущая способность, расчёт.'
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/728474148
+  kind: текст

@@ -1,0 +1,17 @@
+id: gost-21.613-2014
+kind: ГОСТ
+number: 21.613-2014
+title: Система проектной документации для строительства. Правила выполнения рабочей документации оборудования, трубопроводов и систем автоматизации
+jurisdiction: ru
+status: действует
+scope:
+- obshchie
+- avtomatika
+introduced: '2015-07-01'
+notes: 'Чертежи автоматизации и трубопроводов: схемы, планы, кабельные журналы.'
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/1200115056
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус

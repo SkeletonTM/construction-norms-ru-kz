@@ -1,0 +1,17 @@
+id: sp-20.13330.2016
+kind: СП
+number: 20.13330.2016
+title: Нагрузки и воздействия
+jurisdiction: ru
+status: действует
+scope:
+- obshchie
+edition: с Изменениями № 1-6
+introduced: '2017-06-04'
+notes: Снеговые, ветровые и температурные нагрузки. Нужен для расчёта опор и креплений.
+updated: '2026-11-25'
+sources:
+- url: https://docs.cntd.ru/document/456044318
+  kind: текст
+- url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
+  kind: статус
