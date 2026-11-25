@@ -3,6 +3,7 @@
 import sys
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -16,15 +17,35 @@ class LinkCheck(unittest.TestCase):
                 self.assertEqual(validate.link_verdict("https://example.org/x", code), "error")
 
     def test_blocked_link_is_warning(self):
-        for code in (None, 403, 429, 503):
-            with self.subTest(code=code):
-                self.assertEqual(validate.link_verdict("https://example.org/x", code), "warning")
+        cases = [("https://example.org/x", code) for code in (None, 403, 429, 503)]
+        cases.append(("https://[malformed", 200))  # urlparse raises ValueError
+        for url, code in cases:
+            with self.subTest(url=url, code=code):
+                self.assertEqual(validate.link_verdict(url, code), "warning")
 
     def test_bot_walled_host_is_always_warning(self):
         self.assertEqual(validate.link_verdict("https://docs.cntd.ru/document/1", 200), "warning")
 
     def test_healthy_link_is_ok(self):
         self.assertEqual(validate.link_verdict("https://prg.kz/document/?doc_id=1", 200), "ok")
+
+    def test_check_links_skips_soft_host_once_and_keeps_dead_error(self):
+        cards = {"a": {"_path": Path("catalog/ru/a.yaml"), "sources": [
+            {"url": "https://docs.cntd.ru/document/1"},
+            {"url": "https://docs.cntd.ru/document/1"},
+            {"url": "https://example.org/dead"},
+        ]}}
+        with patch.object(validate, "probe", return_value=404) as probe:
+            errs, skipped, probed = validate.check_links(cards)
+        self.assertEqual((skipped, probed), (1, 1))
+        self.assertEqual(len(errs), 1)
+        self.assertEqual(probe.call_count, 1)
+
+    def test_check_links_treats_server_error_as_warning(self):
+        cards = {"a": {"_path": Path("catalog/ru/a.yaml"), "sources": [{"url": "https://example.org/down"}]}}
+        with patch.object(validate, "probe", return_value=503):
+            errs, skipped, probed = validate.check_links(cards)
+        self.assertEqual((len(errs), skipped, probed), (0, 0, 1))
 
 
 if __name__ == "__main__":

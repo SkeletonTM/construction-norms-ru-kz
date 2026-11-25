@@ -46,7 +46,7 @@
 
 ```bash
 python3 scripts/validate.py              # схема, перекрёстные ссылки, даты
-python3 scripts/validate.py --links      # плюс доступность всех ссылок
+python3 scripts/validate.py --links      # опрос ссылок: 404/410 — ошибки, сетевые/403/429/5xx — предупреждения
 python3 scripts/validate.py --strict     # предупреждения считать ошибками
 ```
 
@@ -60,6 +60,8 @@ python3 scripts/validate.py --strict     # предупреждения счит
 - что `status: заменён` имеет `superseded_by`;
 - что связи `superseded_by` и `supersedes` взаимны;
 - что `не_проверено` сопровождается `todo: true`.
+
+Флаг `--links` опрашивает ссылки на хостах вне `SOFT_LINK_HOSTS`: 404/410 — ошибка, сетевые ошибки, 403, 429 и 5xx — предупреждение. Ссылки на `docs.cntd.ru` (`SOFT_LINK_HOSTS`) не опрашиваются и выводятся одним предупреждением за прогон. Пока они есть, `--links --strict` всегда завершается ошибкой, поэтому CI выполняет `--strict` и `--links` в разных шагах.
 
 ## Сверка с реестрами
 

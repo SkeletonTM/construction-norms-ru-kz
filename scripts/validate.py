@@ -29,16 +29,34 @@ JURISDICTIONS = {"ru", "kz", "both"}
 SOFT_LINK_HOSTS = {"docs.cntd.ru"}
 
 
+def soft_host(url):
+    """Return the lowercase hostname, or None if the URL is malformed."""
+    try:
+        host = urllib.parse.urlparse(url).hostname
+    except ValueError:
+        return None
+    return host.lower() if host else None
+
+
 def link_verdict(url, code):
     """Classify a link result: hard error, warning, or ok."""
-    host = urllib.parse.urlparse(url).hostname or ""
-    if host in SOFT_LINK_HOSTS:
+    host = soft_host(url)
+    if host is None or host in SOFT_LINK_HOSTS:
         return "warning"
     if code in (404, 410):
         return "error"
     if code is None or code >= 400:
         return "warning"
     return "ok"
+
+
+def pluralize(n, one, few, many):
+    """Pick the Russian noun form for n."""
+    if n % 10 == 1 and n % 100 != 11:
+        return one
+    if 2 <= n % 10 <= 4 and not 12 <= n % 100 <= 14:
+        return few
+    return many
 
 
 REQUIRED = ["id", "kind", "number", "title", "jurisdiction", "status", "scope", "sources", "updated"]
@@ -181,7 +199,7 @@ def check_links(cards, timeout=20):
             if not url or url in seen:
                 continue
             seen.add(url)
-            if urllib.parse.urlparse(url).hostname in SOFT_LINK_HOSTS:
+            if soft_host(url) in SOFT_LINK_HOSTS:
                 skipped.add(url)
                 continue
             code = probe(url, timeout)
@@ -229,8 +247,10 @@ def main():
         link_errs, skipped, checked = check_links(cards)
         errors.extend(link_errs)
         if skipped:
+            hosts = ", ".join(sorted(SOFT_LINK_HOSTS))
+            noun = pluralize(skipped, "ссылка", "ссылки", "ссылок")
             warnings.append(
-                f"{skipped} ссылок на docs.cntd.ru не проверяются из CI: сайт блокирует запросы"
+                f"пропущено {skipped} {noun} на {hosts}: сайт блокирует автоматические запросы"
             )
 
     for msg in warnings:
