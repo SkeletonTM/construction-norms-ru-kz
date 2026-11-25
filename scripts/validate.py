@@ -31,11 +31,13 @@ SOFT_LINK_HOSTS = {"docs.cntd.ru"}
 
 def soft_host(url):
     """Return the lowercase hostname, or None if the URL is malformed."""
+    if not isinstance(url, str):
+        return None
     try:
         host = urllib.parse.urlparse(url).hostname
     except ValueError:
         return None
-    return host.lower() if host else None
+    return host.lower().rstrip(".") if host else None
 
 
 def link_verdict(url, code):
@@ -196,10 +198,19 @@ def check_links(cards, timeout=20):
     for card in cards.values():
         for src in card.get("sources") or []:
             url = src.get("url")
-            if not url or url in seen:
+            if url is None or url == "":
+                continue
+            if not isinstance(url, str):
+                errs.append(f"{card['_path']}: ссылка не строка: {url!r}")
+                continue
+            if url in seen:
                 continue
             seen.add(url)
-            if soft_host(url) in SOFT_LINK_HOSTS:
+            host = soft_host(url)
+            if host is None:
+                errs.append(f"{card['_path']}: некорректная ссылка {url!r}")
+                continue
+            if host in SOFT_LINK_HOSTS:
                 skipped.add(url)
                 continue
             code = probe(url, timeout)
@@ -248,9 +259,11 @@ def main():
         errors.extend(link_errs)
         if skipped:
             hosts = ", ".join(sorted(SOFT_LINK_HOSTS))
+            verb = pluralize(skipped, "пропущена", "пропущено", "пропущено")
             noun = pluralize(skipped, "ссылка", "ссылки", "ссылок")
+            host_noun = pluralize(len(SOFT_LINK_HOSTS), "сайт", "сайта", "сайтов")
             warnings.append(
-                f"пропущено {skipped} {noun} на {hosts}: сайт блокирует автоматические запросы"
+                f"{verb} {skipped} {noun} на {hosts}: {host_noun} блокирует автоматические запросы"
             )
 
     for msg in warnings:
