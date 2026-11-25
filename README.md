@@ -56,7 +56,7 @@ python3 scripts/check_status.py --id sp-60.13330.2020
 
 ## Лицензия
 
-MIT для скриптов каталога, см. [LICENSE](LICENSE). Тексты нормативных документов остаются собственностью их правообладателей и по ссылкам из карточек не копируются.
+Каталог и скрипты переданы в общественное достояние по [CC0 1.0 Universal](LICENSE). Тексты нормативных документов не хранятся и остаются собственностью правообладателей.
 
 ---
 
@@ -118,4 +118,4 @@ See [docs/maintenance.md](docs/maintenance.md) for the maintenance rules and [do
 
 ## License
 
-MIT for the catalog scripts, see [LICENSE](LICENSE). Normative documents remain the property of their publishers and are not copied through the links in the cards.
+The catalog and scripts are dedicated to the public domain under [CC0 1.0 Universal](LICENSE). Normative document texts are not stored and remain the property of their publishers.
