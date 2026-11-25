@@ -43,7 +43,7 @@ def matches(card, query, scope, status, jurisdiction, kind):
 def main():
     parser = argparse.ArgumentParser(description="Поиск по каталогу нормативных документов")
     parser.add_argument("query", nargs="?", default="", help="номер, название или id")
-    parser.add_argument("--scope", help="раздел: ov, vk, ss, tz, pozh, obshchie")
+    parser.add_argument("--scope", help="раздел: ov, vk, ... (полный список в _schema.md)")
     parser.add_argument("--status", help="статус: действует, заменён, отменён, не_проверено")
     parser.add_argument("--jurisdiction", help="ru, kz или both")
     parser.add_argument("--kind", help="ГОСТ, СП, СН РК, СП РК, НТП РК")
