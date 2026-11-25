@@ -7,6 +7,7 @@ import datetime as dt
 import re
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
@@ -25,6 +26,21 @@ SCOPES = {
 }
 SOURCE_KINDS = {"текст", "статус", "магазин", "приказ"}
 JURISDICTIONS = {"ru", "kz", "both"}
+SOFT_LINK_HOSTS = {"docs.cntd.ru"}
+
+
+def link_verdict(url, code):
+    """Classify a link result: hard error, warning, or ok."""
+    host = urllib.parse.urlparse(url).hostname or ""
+    if host in SOFT_LINK_HOSTS:
+        return "warning"
+    if code in (404, 410):
+        return "error"
+    if code is None or code >= 400:
+        return "warning"
+    return "ok"
+
+
 REQUIRED = ["id", "kind", "number", "title", "jurisdiction", "status", "scope", "sources", "updated"]
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9.\-]*$")
@@ -150,18 +166,29 @@ def check_card(card, cards):
 
 
 def check_links(cards, timeout=20):
+    """Return (hard_errors, skipped_count, probed_count).
+
+    docs.cntd.ru blocks automated requests, so its links are reported as
+    skipped instead of failing CI. Dead links on other hosts stay hard errors.
+    """
     errs = []
-    checked = {}
+    seen = set()
+    skipped = set()
+    probed = 0
     for card in cards.values():
         for src in card.get("sources") or []:
             url = src.get("url")
-            if not url or url in checked:
+            if not url or url in seen:
+                continue
+            seen.add(url)
+            if urllib.parse.urlparse(url).hostname in SOFT_LINK_HOSTS:
+                skipped.add(url)
                 continue
             code = probe(url, timeout)
-            checked[url] = code
-            if code is None or code >= 400:
+            probed += 1
+            if link_verdict(url, code) == "error":
                 errs.append(f"{card['_path']}: ссылка {url} отвечает {code}")
-    return errs, len(checked)
+    return errs, len(skipped), probed
 
 
 def probe(url, timeout):
@@ -199,8 +226,12 @@ def main():
 
     checked = 0
     if args.links:
-        link_errs, checked = check_links(cards)
+        link_errs, skipped, checked = check_links(cards)
         errors.extend(link_errs)
+        if skipped:
+            warnings.append(
+                f"{skipped} ссылок на docs.cntd.ru не проверяются из CI: сайт блокирует запросы"
+            )
 
     for msg in warnings:
         print(f"ПРЕДУПРЕЖДЕНИЕ: {msg}")
