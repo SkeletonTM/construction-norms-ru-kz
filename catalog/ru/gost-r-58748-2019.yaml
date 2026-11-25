@@ -1,0 +1,17 @@
+id: gost-r-58748-2019
+kind: ГОСТ Р
+number: 58748-2019
+title: Слаботочные системы. Кабельные системы. Монтаж кабельных систем. Технические условия и обеспечение качества
+jurisdiction: ru
+status: действует
+scope:
+- ss
+introduced: '2020-03-01'
+enacted_by: приказ Росстандарта от 10.12.2019 № 1375-ст
+notes: Качество монтажа кабельных систем.
+updated: '2026-11-25'
+sources:
+- url: https://allgosts.ru/33/040/gost_r_58748-2019
+  kind: статус
+- url: https://docs.cntd.ru/document/1200170121
+  kind: текст

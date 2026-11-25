@@ -439,6 +439,21 @@
     "path": "catalog/kz/sp-rk-3.02-127-2013.yaml"
   },
   {
+    "id": "st-rk-2176-1-2011",
+    "kind": "СТ РК",
+    "number": "2176-1-2011",
+    "title": "Расчетные нормы на качество предоставления услуг телефонной связи. Часть 1. Телефонная связь с коммутацией каналов",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "ss"
+    ],
+    "edition": null,
+    "introduced": "2013-01-01",
+    "superseded_by": null,
+    "path": "catalog/kz/st-rk-2176-1-2011.yaml"
+  },
+  {
     "id": "st-rk-4044-2026",
     "kind": "СТ РК",
     "number": "4044-2026",
@@ -510,7 +525,7 @@
       "ss",
       "avtomatika"
     ],
-    "edition": null,
+    "edition": "с изменениями и дополнениями от 25.09.2026 г.",
     "introduced": null,
     "superseded_by": null,
     "path": "catalog/kz/snip-rk-3.02-10-2010.yaml"
@@ -545,6 +560,22 @@
     "introduced": "2015-07-01",
     "superseded_by": "sp-rk-2.02-102-2022",
     "path": "catalog/kz/sp-rk-2.02-102-2012.yaml"
+  },
+  {
+    "id": "gost-r-70384-2022",
+    "kind": "ГОСТ Р",
+    "number": "70384-2022",
+    "title": "Автоматизация учета и управления энергоресурсами. Приборы учета тепловой энергии и измерительные системы на их основе. Управление жизненным циклом и процессами учета",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "avtomatika",
+      "teplo"
+    ],
+    "edition": null,
+    "introduced": "2023-04-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-70384-2022.yaml"
   },
   {
     "id": "sp-44.13330.2011",
@@ -967,6 +998,23 @@
     "path": "catalog/ru/sp-47.13330.2016.yaml"
   },
   {
+    "id": "sto-nostroy-2-15-144-2014",
+    "kind": "СТО НОСТРОЙ",
+    "number": "2.15.144-2014",
+    "title": "Инженерные сети зданий и сооружений внутренние. Автоматизированные системы коммерческого учета энергоресурсов (тепловой энергии, воды). Правила проектирования и монтажа, контроль выполнения, требования к результатам работ",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "avtomatika",
+      "teplo",
+      "vk"
+    ],
+    "edition": "издание официальное 2016, поправка от 02.06.2017",
+    "introduced": "2014-04-14",
+    "superseded_by": null,
+    "path": "catalog/ru/sto-nostroy-2-15-144-2014.yaml"
+  },
+  {
     "id": "gost-r-53245-2008",
     "kind": "ГОСТ Р",
     "number": "53245-2008",
@@ -982,19 +1030,19 @@
     "path": "catalog/ru/gost-r-53245-2008.yaml"
   },
   {
-    "id": "gost-r-53246-2008",
+    "id": "gost-r-53246-2025",
     "kind": "ГОСТ Р",
-    "number": "53246-2008",
-    "title": "Информационные технологии. Системы кабельные структурированные. Проектирование основных узлов системы. Общие требования",
+    "number": "53246-2025",
+    "title": "Информационные технологии. Системы кабельные структурированные. Общие технические требования",
     "jurisdiction": "ru",
     "status": "действует",
     "scope": [
       "ss"
     ],
     "edition": null,
-    "introduced": "2010-01-01",
+    "introduced": "2026-02-01",
     "superseded_by": null,
-    "path": "catalog/ru/gost-r-53246-2008.yaml"
+    "path": "catalog/ru/gost-r-53246-2025.yaml"
   },
   {
     "id": "sp-15.13330.2020",
@@ -1089,6 +1137,21 @@
     "introduced": "2013-07-01",
     "superseded_by": null,
     "path": "catalog/ru/sp-70.13330.2012.yaml"
+  },
+  {
+    "id": "prikaz-minstroy-99-pr-2014",
+    "kind": "Приказ",
+    "number": "99/пр",
+    "title": "Об утверждении Методики осуществления коммерческого учета тепловой энергии, теплоносителя",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "teplo"
+    ],
+    "edition": null,
+    "introduced": null,
+    "superseded_by": null,
+    "path": "catalog/ru/prikaz-minstroy-99-pr-2014.yaml"
   },
   {
     "id": "sp-132.13330.2011",
@@ -1401,6 +1464,22 @@
     "path": "catalog/ru/gost-21.110-2013.yaml"
   },
   {
+    "id": "gost-r-21.618-2023",
+    "kind": "ГОСТ Р",
+    "number": "21.618-2023",
+    "title": "Система проектной документации для строительства. Правила оформления проектной документации. Системы электросвязи объектов капитального строительства",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ss",
+      "ar"
+    ],
+    "edition": null,
+    "introduced": "2023-09-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-21.618-2023.yaml"
+  },
+  {
     "id": "gost-r-54831-2011",
     "kind": "ГОСТ Р",
     "number": "54831-2011",
@@ -1608,19 +1687,186 @@
     "path": "catalog/ru/sp-1.13130.2020.yaml"
   },
   {
-    "id": "sp-134.13330.2012",
+    "id": "sp-134.13330.2022",
     "kind": "СП",
-    "number": "134.13330.2012",
+    "number": "134.13330.2022",
     "title": "Системы электросвязи зданий и сооружений. Основные положения проектирования",
     "jurisdiction": "ru",
     "status": "действует",
     "scope": [
       "ss"
     ],
-    "edition": null,
-    "introduced": "2012-09-01",
+    "edition": "с Изменением № 1 (приказ 935/пр от 27.12.2024, введ. 28.01.2025)",
+    "introduced": "2023-01-24",
     "superseded_by": null,
-    "path": "catalog/ru/sp-134.13330.2012.yaml"
+    "path": "catalog/ru/sp-134.13330.2022.yaml"
+  },
+  {
+    "id": "sp-520.1325800.2023",
+    "kind": "СП",
+    "number": "520.1325800.2023",
+    "title": "Системы электросвязи зданий и сооружений. Правила производства и приемки работ",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ss",
+      "organizaciya"
+    ],
+    "edition": null,
+    "introduced": "2023-04-28",
+    "superseded_by": null,
+    "path": "catalog/ru/sp-520.1325800.2023.yaml"
+  },
+  {
+    "id": "gost-r-58240-2018",
+    "kind": "ГОСТ Р",
+    "number": "58240-2018",
+    "title": "Слаботочные системы. Кабельные системы. Горизонтальная подсистема структурированной кабельной системы. Основные положения",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ss"
+    ],
+    "edition": null,
+    "introduced": "2019-03-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-58240-2018.yaml"
+  },
+  {
+    "id": "gost-r-70303-2022",
+    "kind": "ГОСТ Р",
+    "number": "70303-2022",
+    "title": "Слаботочные системы. Кабельные системы. Заземление телекоммуникационных систем. Общие требования",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ss",
+      "elektro"
+    ],
+    "edition": null,
+    "introduced": "2023-01-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-70303-2022.yaml"
+  },
+  {
+    "id": "gost-r-58241-2018",
+    "kind": "ГОСТ Р",
+    "number": "58241-2018",
+    "title": "Слаботочные системы. Кабельные системы. Магистральная подсистема структурированной кабельной системы. Основные положения",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ss"
+    ],
+    "edition": null,
+    "introduced": "2019-03-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-58241-2018.yaml"
+  },
+  {
+    "id": "gost-r-58748-2019",
+    "kind": "ГОСТ Р",
+    "number": "58748-2019",
+    "title": "Слаботочные системы. Кабельные системы. Монтаж кабельных систем. Технические условия и обеспечение качества",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ss"
+    ],
+    "edition": null,
+    "introduced": "2020-03-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-58748-2019.yaml"
+  },
+  {
+    "id": "gost-r-58238-2018",
+    "kind": "ГОСТ Р",
+    "number": "58238-2018",
+    "title": "Слаботочные системы. Кабельные системы. Порядок и нормы проектирования. Общие положения",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ss"
+    ],
+    "edition": null,
+    "introduced": "2019-03-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-58238-2018.yaml"
+  },
+  {
+    "id": "gost-r-70305-2022",
+    "kind": "ГОСТ Р",
+    "number": "70305-2022",
+    "title": "Слаботочные системы. Кабельные системы. Структурированные кабельные системы. Основные характеристики",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ss"
+    ],
+    "edition": null,
+    "introduced": "2023-01-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-70305-2022.yaml"
+  },
+  {
+    "id": "gost-r-59316-2021",
+    "kind": "ГОСТ Р",
+    "number": "59316-2021",
+    "title": "Слаботочные системы. Кабельные системы. Телекоммуникационные пространства и помещения. Аппаратная комната. Общие требования",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ss"
+    ],
+    "edition": null,
+    "introduced": "2021-09-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-59316-2021.yaml"
+  },
+  {
+    "id": "gost-r-58242-2018",
+    "kind": "ГОСТ Р",
+    "number": "58242-2018",
+    "title": "Слаботочные системы. Кабельные системы. Телекоммуникационные пространства и помещения. Общие положения",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ss"
+    ],
+    "edition": null,
+    "introduced": "2019-03-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-58242-2018.yaml"
+  },
+  {
+    "id": "gost-r-59315-2021",
+    "kind": "ГОСТ Р",
+    "number": "59315-2021",
+    "title": "Слаботочные системы. Кабельные системы. Телекоммуникационные пространства и помещения. Телекоммуникационная комната. Общие требования",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ss"
+    ],
+    "edition": null,
+    "introduced": "2021-09-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-59315-2021.yaml"
+  },
+  {
+    "id": "gost-r-58239-2018",
+    "kind": "ГОСТ Р",
+    "number": "58239-2018",
+    "title": "Слаботочные системы. Кабельные системы. Телекоммуникационные трассы и пространства горизонтальной и магистральной подсистем структурированной кабельной системы. Основные положения",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ss"
+    ],
+    "edition": null,
+    "introduced": "2019-03-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-58239-2018.yaml"
   },
   {
     "id": "gost-r-51241-2008",
@@ -1762,6 +2008,21 @@
     "path": "catalog/ru/gost-r-53325-2012.yaml"
   },
   {
+    "id": "gost-r-53111-2008",
+    "kind": "ГОСТ Р",
+    "number": "53111-2008",
+    "title": "Устойчивость функционирования сети связи общего пользования. Требования и методы проверки",
+    "jurisdiction": "ru",
+    "status": "действует",
+    "scope": [
+      "ss"
+    ],
+    "edition": null,
+    "introduced": "2009-10-01",
+    "superseded_by": null,
+    "path": "catalog/ru/gost-r-53111-2008.yaml"
+  },
+  {
     "id": "sp-256.1325800.2016",
     "kind": "СП",
     "number": "256.1325800.2016",
@@ -1837,6 +2098,21 @@
     "introduced": "2014-01-01",
     "superseded_by": "gost-31937-2024",
     "path": "catalog/ru/gost-31937-2011.yaml"
+  },
+  {
+    "id": "gost-r-53246-2008",
+    "kind": "ГОСТ Р",
+    "number": "53246-2008",
+    "title": "Информационные технологии. Системы кабельные структурированные. Проектирование основных узлов системы. Общие требования",
+    "jurisdiction": "ru",
+    "status": "заменён",
+    "scope": [
+      "ss"
+    ],
+    "edition": null,
+    "introduced": "2010-01-01",
+    "superseded_by": "gost-r-53246-2025",
+    "path": "catalog/ru/gost-r-53246-2008.yaml"
   },
   {
     "id": "sp-32.13330.2012",
@@ -1931,6 +2207,21 @@
     "introduced": "2009-05-01",
     "superseded_by": "sp-1.13130.2020",
     "path": "catalog/ru/sp-1.13130.2009.yaml"
+  },
+  {
+    "id": "sp-134.13330.2012",
+    "kind": "СП",
+    "number": "134.13330.2012",
+    "title": "Системы электросвязи зданий и сооружений. Основные положения проектирования",
+    "jurisdiction": "ru",
+    "status": "заменён",
+    "scope": [
+      "ss"
+    ],
+    "edition": null,
+    "introduced": "2012-09-01",
+    "superseded_by": "sp-134.13330.2022",
+    "path": "catalog/ru/sp-134.13330.2012.yaml"
   },
   {
     "id": "sp-131.13330.2020",

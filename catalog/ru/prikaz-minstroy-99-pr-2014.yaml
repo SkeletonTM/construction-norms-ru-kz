@@ -1,0 +1,14 @@
+id: prikaz-minstroy-99-pr-2014
+kind: Приказ
+number: 99/пр
+title: Об утверждении Методики осуществления коммерческого учета тепловой энергии, теплоносителя
+jurisdiction: ru
+status: действует
+scope:
+- teplo
+enacted_by: Минстрой России, 17.03.2014; зарегистрирован Минюстом 12.09.2014 № 34040
+notes: Методика коммерческого учёта тепловой энергии и теплоносителя.
+updated: '2026-11-25'
+sources:
+- url: https://www.consultant.ru/document/cons_doc_LAW_168789/
+  kind: текст

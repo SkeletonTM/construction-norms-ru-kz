@@ -3,14 +3,15 @@ kind: ГОСТ Р
 number: 53246-2008
 title: Информационные технологии. Системы кабельные структурированные. Проектирование основных узлов системы. Общие требования
 jurisdiction: ru
-status: действует
+status: заменён
 scope:
 - ss
 introduced: '2010-01-01'
-notes: 'Проектирование СКС: кабельные трассы, телекоммуникационные помещения, магистрали.'
+notes: Заменён ГОСТ Р 53246-2025 (приказ 1868-ст), действует с 01.02.2026.
 updated: '2026-11-25'
 sources:
 - url: https://docs.cntd.ru/document/1200071899
   kind: текст
 - url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
   kind: статус
+superseded_by: gost-r-53246-2025

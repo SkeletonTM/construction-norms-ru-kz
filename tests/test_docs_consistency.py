@@ -54,6 +54,15 @@ class DocsConsistency(unittest.TestCase):
         values = kinds_literal_values()
         self.assertEqual(len(values), len(set(values)), f"KINDS содержит дубликаты: {values}")
 
+    def test_schema_kind_list_matches_validator(self):
+        text = (ROOT / "_schema.md").read_text(encoding="utf-8")
+        row = next(line for line in text.splitlines() if line.startswith("| `kind` |"))
+        documented = set(re.findall(r"`([^`]+)`", row)) - {"kind"}
+        self.assertEqual(
+            documented, set(validate.KINDS),
+            f"список kind в _schema.md не совпадает с validate.KINDS: {sorted(documented ^ set(validate.KINDS))}",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

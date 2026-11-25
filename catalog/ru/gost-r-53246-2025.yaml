@@ -1,0 +1,19 @@
+id: gost-r-53246-2025
+kind: ГОСТ Р
+number: 53246-2025
+title: Информационные технологии. Системы кабельные структурированные. Общие технические требования
+jurisdiction: ru
+status: действует
+scope:
+- ss
+introduced: '2026-02-01'
+enacted_by: приказ Росстандарта от 30.12.2025 № 1868-ст
+supersedes:
+- gost-r-53246-2008
+notes: Новый базовый стандарт СКС вместо редакции 2008 года.
+updated: '2026-11-25'
+sources:
+- url: https://protect.gost.ru/gost/details/0b91cb5b-32cb-4489-82f7-8c43272bf266
+  kind: статус
+- url: https://www.consultant.ru/document/cons_doc_LAW_524129/
+  kind: приказ
