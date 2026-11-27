@@ -1,0 +1,19 @@
+id: gost-1811-2019
+kind: ГОСТ
+number: 1811-2019
+title: Трапы для систем канализации зданий. Технические условия
+jurisdiction: both
+status: действует
+scope:
+- vk
+introduced: '2024-06-20'
+enacted_by: протокол МГС от 30.09.2019 № 122-П; приказ КТРМ МТИ РК от 20.06.2024 № 241-НҚ
+supersedes:
+- gost-1811-97
+notes: В РК действует с 20.06.2024, в РФ дата введения 01.06.2020. Переходный срок 20.06.2025 не объявляется подтверждённым без первичного акта.
+updated: '2026-11-27'
+sources:
+- url: https://new-shop.ksm.kz/catalog/document/71241/
+  kind: статус
+- url: https://www.gostinfo.ru/catalog/Details/?id=2425998d-6455-41ad-82fb-11c184589d2c
+  kind: статус

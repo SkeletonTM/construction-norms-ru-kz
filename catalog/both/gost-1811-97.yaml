@@ -1,0 +1,18 @@
+id: gost-1811-97
+kind: ГОСТ
+number: 1811-97
+title: Трапы для систем канализации зданий. Технические условия
+jurisdiction: both
+status: заменён
+scope:
+- vk
+introduced: '1998-01-01'
+superseded_by: gost-1811-2019
+notes: Заменён на ГОСТ 1811-2019 приказом КТРМ МТИ РК от 20.06.2024 № 241-НҚ (ИУС 6-2024). Статус «Заменён» подтверждён КазСтандарт и ФГБУ «Институт
+  стандартизации».
+updated: '2026-11-27'
+sources:
+- url: https://new-shop.ksm.kz/catalog/document/35058/
+  kind: статус
+- url: https://www.gostinfo.ru/catalog/Details/?id=2e18a5ae-8317-4189-83e4-704af0044813
+  kind: статус

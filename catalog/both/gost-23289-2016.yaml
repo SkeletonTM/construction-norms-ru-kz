@@ -1,0 +1,19 @@
+id: gost-23289-2016
+kind: ГОСТ
+number: 23289-2016
+title: Арматура санитарно-техническая водосливная. Технические условия
+jurisdiction: both
+status: действует
+scope:
+- vk
+introduced: '2017-04-01'
+enacted_by: приказ Росстандарта от 11.11.2016 № 1678-ст; приказ КТРМ МТИ РК от 20.06.2024 № 241-НҚ
+supersedes:
+- gost-23289-94
+notes: В РК действует с 20.06.2024, в РФ введение 01.04.2017. Заменяет ГОСТ 23289-94.
+updated: '2026-11-27'
+sources:
+- url: https://new-shop.ksm.kz/catalog/document/74039/
+  kind: статус
+- url: https://protect.gost.ru/gost/details/069eb819-4682-4890-bef8-897535aa9537
+  kind: статус

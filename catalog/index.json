@@ -1,5 +1,20 @@
 [
   {
+    "id": "gost-23289-2016",
+    "kind": "ГОСТ",
+    "number": "23289-2016",
+    "title": "Арматура санитарно-техническая водосливная. Технические условия",
+    "jurisdiction": "both",
+    "status": "действует",
+    "scope": [
+      "vk"
+    ],
+    "edition": null,
+    "introduced": "2017-04-01",
+    "superseded_by": null,
+    "path": "catalog/both/gost-23289-2016.yaml"
+  },
+  {
     "id": "gost-30494-2011",
     "kind": "ГОСТ",
     "number": "30494-2011",
@@ -62,6 +77,21 @@
     "path": "catalog/both/gost-26342-84.yaml"
   },
   {
+    "id": "gost-1811-2019",
+    "kind": "ГОСТ",
+    "number": "1811-2019",
+    "title": "Трапы для систем канализации зданий. Технические условия",
+    "jurisdiction": "both",
+    "status": "действует",
+    "scope": [
+      "vk"
+    ],
+    "edition": null,
+    "introduced": "2024-06-20",
+    "superseded_by": null,
+    "path": "catalog/both/gost-1811-2019.yaml"
+  },
+  {
     "id": "gost-3262-75",
     "kind": "ГОСТ",
     "number": "3262-75",
@@ -94,6 +124,21 @@
     "path": "catalog/both/gost-10704-91.yaml"
   },
   {
+    "id": "gost-23289-94",
+    "kind": "ГОСТ",
+    "number": "23289-94",
+    "title": "Арматура санитарно-техническая водосливная. Технические условия",
+    "jurisdiction": "both",
+    "status": "заменён",
+    "scope": [
+      "vk"
+    ],
+    "edition": null,
+    "introduced": "1996-01-01",
+    "superseded_by": "gost-23289-2016",
+    "path": "catalog/both/gost-23289-94.yaml"
+  },
+  {
     "id": "gost-14918-80",
     "kind": "ГОСТ",
     "number": "14918-80",
@@ -107,6 +152,21 @@
     "introduced": "1981-07-01",
     "superseded_by": "gost-14918-2020",
     "path": "catalog/both/gost-14918-80.yaml"
+  },
+  {
+    "id": "gost-1811-97",
+    "kind": "ГОСТ",
+    "number": "1811-97",
+    "title": "Трапы для систем канализации зданий. Технические условия",
+    "jurisdiction": "both",
+    "status": "заменён",
+    "scope": [
+      "vk"
+    ],
+    "edition": null,
+    "introduced": "1998-01-01",
+    "superseded_by": "gost-1811-2019",
+    "path": "catalog/both/gost-1811-97.yaml"
   },
   {
     "id": "gost-33423-2015",
@@ -281,6 +341,21 @@
     "path": "catalog/kz/sp-rk-5.01-101-2013.yaml"
   },
   {
+    "id": "sn-rk-4.01-05-2002",
+    "kind": "СН РК",
+    "number": "4.01-05-2002",
+    "title": "Инструкция по проектированию и монтажу сетей водоснабжения и канализации из пластмассовых труб",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "vk"
+    ],
+    "edition": null,
+    "introduced": null,
+    "superseded_by": null,
+    "path": "catalog/kz/sn-rk-4.01-05-2002.yaml"
+  },
+  {
     "id": "sp-rk-3.02-109-2012",
     "kind": "СП РК",
     "number": "3.02-109-2012",
@@ -405,6 +480,22 @@
     "introduced": "2023-06-16",
     "superseded_by": null,
     "path": "catalog/kz/sn-rk-2.02-01-2023.yaml"
+  },
+  {
+    "id": "sn-rk-1.02-03-2022",
+    "kind": "СН РК",
+    "number": "1.02-03-2022",
+    "title": "Порядок разработки, согласования, утверждения и состав проектно-сметной документации на строительство",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "organizaciya",
+      "ar"
+    ],
+    "edition": "с изменениями и дополнениями по состоянию на 27.07.2026 г. (приказ № 80-НҚ от 27.07.2026)",
+    "introduced": "2022-08-01",
+    "superseded_by": null,
+    "path": "catalog/kz/sn-rk-1.02-03-2022.yaml"
   },
   {
     "id": "ntp-rk-4.01-05-2014",
