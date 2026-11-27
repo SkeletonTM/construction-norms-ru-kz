@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Check document statuses against official registries.
+"""Check document statuses against registries and secondary reference sites.
 
-РФ: files.stroyinf.ru (реестр) + docs.cntd.ru (карточка документа).
+РФ: files.stroyinf.ru (реестр) + docs.cntd.ru (вторичная карточка документа).
 РК: prg.kz (Параграф, карточка «Информация о документе»).
 
 Скрипт только сообщает расхождения. Статусы в карточках он не меняет:
@@ -29,7 +29,8 @@ STATUS_WORDS = {
     "действует": "действует",
     "введен впервые": "действует",
     "взамен": "действует",
-    "принят": "действует",
+    # «принят» описывает принятие МГС, а не действующий статус: в STATUS_WORDS
+    # его нет намеренно, чтобы сверка не выдавала ложное совпадение.
     "не подлежит применению": "заменён",
     "заменен": "заменён",
     "заменён": "заменён",
@@ -95,7 +96,10 @@ def prg_status(doc_id):
     if idx < 0:
         return None
     window = body[idx : idx + 600]
-    status = re.search(r"Статус:\s*(\S+)", window)
+    status = re.search(
+        r"Статус:\s*(.+?)(?=\s+(?:Дата последнего изменения|Дата документа|введен|введено)\b|$)",
+        window,
+    )
     since = re.search(r"введен[а]? в действие с (\d{1,2}) (\w+) (\d{4})", window)
     iso = None
     if since and since.group(2) in MONTHS:
@@ -125,11 +129,14 @@ def search_query(card):
 
 
 def row_matches(card, row):
-    return squash(card["number"]) in squash(row["doc"]) and squash(card["kind"]) in squash(row["doc"])
+    # Вид и номер должны совпадать целиком: ГОСТ != ГОСТ Р, 2405-88 != 2405-880.
+    token = squash(card["kind"]) + squash(card["number"])
+    pattern = r"(?<![А-Яа-яЁёA-Za-z0-9])" + re.escape(token) + r"(?![А-Яа-яЁёA-Za-z0-9])"
+    return re.search(pattern, squash(row["doc"])) is not None
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Сверка статусов карточек с официальными реестрами")
+    parser = argparse.ArgumentParser(description="Сверка статусов карточек с реестрами и справочниками")
     parser.add_argument("--jurisdiction", choices=["ru", "kz", "both"], help="ограничить юрисдикцию")
     parser.add_argument("--id", help="проверить одну карточку по id")
     parser.add_argument("--delay", type=float, default=1.5, help="пауза между запросами, сек")
