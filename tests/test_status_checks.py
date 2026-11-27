@@ -25,6 +25,21 @@ class StatusChecks(unittest.TestCase):
         row = {"doc": "ГОСТ 2405-880", "date": "01.01.1988", "status": "действует"}
         self.assertFalse(check_status.row_matches(card, row))
 
+    def test_row_matches_accepts_title_after_number(self):
+        card = {"kind": "ГОСТ", "number": "2405-88"}
+        row = {"doc": "ГОСТ 2405-88 Приборы измерительные", "date": "01.01.1988", "status": "действует"}
+        self.assertTrue(check_status.row_matches(card, row))
+
+    def test_row_matches_accepts_parentheses_and_en_dash(self):
+        card = {"kind": "ГОСТ", "number": "2405-88"}
+        row = {"doc": "ГОСТ 2405–88 (Приборы измерительные)", "date": "01.01.1988", "status": "действует"}
+        self.assertTrue(check_status.row_matches(card, row))
+
+    def test_row_matches_accepts_gost_r_with_title(self):
+        card = {"kind": "ГОСТ Р", "number": "2405-88"}
+        row = {"doc": "ГОСТ Р 2405-88 Приборы", "date": "01.01.1988", "status": "действует"}
+        self.assertTrue(check_status.row_matches(card, row))
+
     def test_acceptance_is_not_an_active_status(self):
         self.assertNotEqual(check_status.STATUS_WORDS.get("принят"), "действует")
 

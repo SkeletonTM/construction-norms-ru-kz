@@ -117,8 +117,10 @@ def card_number(card):
     return f"{card['kind']} {card['number']}"
 
 
-def squash(value):
-    return re.sub(r"[\s\-–—]", "", value or "")
+def normalize(value):
+    # Пробелы и тире сохраняются как разделители: по ним проверяются границы
+    # обозначения перед названием документа.
+    return re.sub(r"[\s\-–—]+", " ", value or "").strip()
 
 
 def search_query(card):
@@ -130,9 +132,11 @@ def search_query(card):
 
 def row_matches(card, row):
     # Вид и номер должны совпадать целиком: ГОСТ != ГОСТ Р, 2405-88 != 2405-880.
-    token = squash(card["kind"]) + squash(card["number"])
-    pattern = r"(?<![А-Яа-яЁёA-Za-z0-9])" + re.escape(token) + r"(?![А-Яа-яЁёA-Za-z0-9])"
-    return re.search(pattern, squash(row["doc"])) is not None
+    # Название после обозначения допускается, но приклеивать его к номеру нельзя.
+    separator = r"[\s\-–—]*"
+    parts = normalize(card["kind"]).split() + normalize(card["number"]).split()
+    pattern = r"(?<!\w)" + separator.join(re.escape(p) for p in parts) + r"(?!\w)"
+    return re.search(pattern, normalize(row["doc"])) is not None
 
 
 def main():
