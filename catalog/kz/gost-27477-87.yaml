@@ -1,0 +1,14 @@
+id: gost-27477-87
+kind: ГОСТ
+number: 27477-87
+title: Клапаны обратные. Основные параметры
+jurisdiction: kz
+status: не_проверено
+scope:
+- vk
+todo: true
+notes: Основные параметры; не пара замены с ГОСТ 33423-2015 (общие технические условия). Применяется в РК по Соглашению СНГ от 13.03.1992.
+updated: '2026-11-27'
+sources:
+- url: https://new-shop.ksm.kz/catalog/document/20265/
+  kind: статус

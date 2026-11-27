@@ -109,6 +109,21 @@
     "path": "catalog/both/gost-14918-80.yaml"
   },
   {
+    "id": "gost-33423-2015",
+    "kind": "ГОСТ",
+    "number": "33423-2015",
+    "title": "Арматура трубопроводная. Затворы и клапаны обратные. Общие технические условия",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "vk"
+    ],
+    "edition": null,
+    "introduced": "2017-07-01",
+    "superseded_by": null,
+    "path": "catalog/kz/gost-33423-2015.yaml"
+  },
+  {
     "id": "sn-rk-4.01-02-2013",
     "kind": "СН РК",
     "number": "4.01-02-2013",
@@ -560,6 +575,81 @@
     "introduced": "2015-07-01",
     "superseded_by": "sp-rk-2.02-102-2022",
     "path": "catalog/kz/sp-rk-2.02-102-2012.yaml"
+  },
+  {
+    "id": "gost-27477-87",
+    "kind": "ГОСТ",
+    "number": "27477-87",
+    "title": "Клапаны обратные. Основные параметры",
+    "jurisdiction": "kz",
+    "status": "не_проверено",
+    "scope": [
+      "vk"
+    ],
+    "edition": null,
+    "introduced": null,
+    "superseded_by": null,
+    "path": "catalog/kz/gost-27477-87.yaml"
+  },
+  {
+    "id": "gost-25809-2019",
+    "kind": "ГОСТ",
+    "number": "25809-2019",
+    "title": "Смесители и краны водоразборные. Типы и основные размеры",
+    "jurisdiction": "kz",
+    "status": "не_проверено",
+    "scope": [
+      "vk"
+    ],
+    "edition": null,
+    "introduced": null,
+    "superseded_by": null,
+    "path": "catalog/kz/gost-25809-2019.yaml"
+  },
+  {
+    "id": "gost-25809-96",
+    "kind": "ГОСТ",
+    "number": "25809-96",
+    "title": "Смесители и краны водоразборные. Типы и основные размеры",
+    "jurisdiction": "kz",
+    "status": "не_проверено",
+    "scope": [
+      "vk"
+    ],
+    "edition": null,
+    "introduced": "2004-09-01",
+    "superseded_by": null,
+    "path": "catalog/kz/gost-25809-96.yaml"
+  },
+  {
+    "id": "gost-32414-2013",
+    "kind": "ГОСТ",
+    "number": "32414-2013",
+    "title": "Трубы и фасонные части из полипропилена для систем внутренней канализации. Технические условия",
+    "jurisdiction": "kz",
+    "status": "не_проверено",
+    "scope": [
+      "vk"
+    ],
+    "edition": null,
+    "introduced": "2014-10-13",
+    "superseded_by": null,
+    "path": "catalog/kz/gost-32414-2013.yaml"
+  },
+  {
+    "id": "gost-22689-2014",
+    "kind": "ГОСТ",
+    "number": "22689-2014",
+    "title": "Трубы и фасонные части из полиэтилена для систем внутренней канализации. Технические условия",
+    "jurisdiction": "kz",
+    "status": "не_проверено",
+    "scope": [
+      "vk"
+    ],
+    "edition": null,
+    "introduced": "2024-06-20",
+    "superseded_by": null,
+    "path": "catalog/kz/gost-22689-2014.yaml"
   },
   {
     "id": "gost-r-70384-2022",

@@ -1,0 +1,16 @@
+id: gost-25809-96
+kind: ГОСТ
+number: 25809-96
+title: Смесители и краны водоразборные. Типы и основные размеры
+jurisdiction: kz
+status: не_проверено
+scope:
+- vk
+introduced: '2004-09-01'
+enacted_by: приказ КДС МИТ РК от 26.05.2004 № 251
+todo: true
+notes: 'Не отменять автоматически: принятие ГОСТ 25809-2019 МГС не доказывает введение и отмену в РК.'
+updated: '2026-11-27'
+sources:
+- url: https://new-shop.ksm.kz/catalog/document/35361/
+  kind: статус
