@@ -7,10 +7,10 @@ status: действует
 scope:
 - ov
 edition: с Поправкой, с Изменением № 1
-introduced: '2013-01-01'
 applies_in_kz: true
-notes: Нормируемые температура, влажность и скорость воздуха. Действует в РФ и в РК.
-updated: '2026-11-25'
+notes: 'Нормируемые температура, влажность и скорость воздуха. Даты введения: РФ 01.01.2013,
+  РК 03.10.2014 (с поправкой). Действует в РФ и в РК.'
+updated: '2026-11-28'
 sources:
 - url: https://docs.cntd.ru/document/1200095053
   kind: текст
@@ -18,3 +18,5 @@ sources:
   kind: статус
 - url: https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi
   kind: статус
+checked_by: automation
+source_checked: '2026-11-28'
