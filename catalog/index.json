@@ -341,6 +341,22 @@
     "path": "catalog/kz/sp-rk-5.01-101-2013.yaml"
   },
   {
+    "id": "st-rk-3364-2019",
+    "kind": "СТ РК",
+    "number": "3364-2019",
+    "title": "Изделия теплоизоляционные из вспененного каучука. Технические требования",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "teplo",
+      "ov"
+    ],
+    "edition": null,
+    "introduced": "2020-07-01",
+    "superseded_by": null,
+    "path": "catalog/kz/st-rk-3364-2019.yaml"
+  },
+  {
     "id": "sn-rk-4.01-05-2002",
     "kind": "СН РК",
     "number": "4.01-05-2002",
