@@ -371,6 +371,21 @@
     "path": "catalog/kz/gost-27477-87.yaml"
   },
   {
+    "id": "gost-21345-2005",
+    "kind": "ГОСТ",
+    "number": "21345-2005",
+    "title": "Краны шаровые, конусные и цилиндрические на номинальное давление не более PN 250. Общие технические условия",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "vk"
+    ],
+    "edition": null,
+    "introduced": null,
+    "superseded_by": null,
+    "path": "catalog/kz/gost-21345-2005.yaml"
+  },
+  {
     "id": "sp-rk-3.02-109-2012",
     "kind": "СП РК",
     "number": "3.02-109-2012",
