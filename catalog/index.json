@@ -560,6 +560,21 @@
     "path": "catalog/kz/sp-rk-3.02-127-2013.yaml"
   },
   {
+    "id": "st-rk-gost-r-50553-2010",
+    "kind": "СТ РК",
+    "number": "ГОСТ Р 50553-2010",
+    "title": "Промышленная чистота. Фильтры и фильтроэлементы. Общие технические требования",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "obshchie"
+    ],
+    "edition": null,
+    "introduced": "2011-07-01",
+    "superseded_by": null,
+    "path": "catalog/kz/st-rk-gost-r-50553-2010.yaml"
+  },
+  {
     "id": "st-rk-2176-1-2011",
     "kind": "СТ РК",
     "number": "2176-1-2011",
