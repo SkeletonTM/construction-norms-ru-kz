@@ -681,6 +681,22 @@
     "path": "catalog/kz/gost-22689-2014.yaml"
   },
   {
+    "id": "gost-32415-2013",
+    "kind": "ГОСТ",
+    "number": "32415-2013",
+    "title": "Трубы напорные из термопластов и соединительные детали к ним для систем водоснабжения и отопления. Общие технические условия",
+    "jurisdiction": "kz",
+    "status": "действует",
+    "scope": [
+      "vk",
+      "ov"
+    ],
+    "edition": null,
+    "introduced": null,
+    "superseded_by": null,
+    "path": "catalog/kz/gost-32415-2013.yaml"
+  },
+  {
     "id": "snip-rk-3.02-10-2010",
     "kind": "СНиП РК",
     "number": "3.02-10-2010",
